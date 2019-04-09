@@ -24,7 +24,6 @@ How to install:
 
     conda install -c genepattern genepattern-notebook 
 
-
 .. toctree::
     :maxdepth: 2
     :caption: Release Notes
