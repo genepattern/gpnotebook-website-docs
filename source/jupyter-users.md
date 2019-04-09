@@ -1,9 +1,8 @@
 ---
-title: Jupyter Users
+Jupyter Users
 ---
 
 1. GenePattern Notebook Extension
-=================================
 
 GenePattern Notebook is an extension for Jupyter. It provides a variety
 of tools for interacting with the powerful GenePattern platform from
@@ -23,7 +22,6 @@ an account. GenePattern usage is free and the software is open source
 under a BSD-style license.
 
 2. What is GenePattern?
-=======================
 
 GenePattern is a powerful platform for reproducible bioinformatic
 research. It provides hundreds of analytical tools for the analysis of
@@ -35,7 +33,6 @@ information about GenePattern, please see our 10-minute tutorial and/or
 check out one of our video tutorials.
 
 3. GenePattern Cells
-====================
 
 GenePattern cells are Python code cells which are automatically
 executed, and which display a visual widget for submitting GenePattern
