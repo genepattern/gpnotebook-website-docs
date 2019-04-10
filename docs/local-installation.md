@@ -1,5 +1,3 @@
----
-title: Local Installation
----
+# Local Installation
 
 

@@ -32,7 +32,7 @@ has already authenticated, such as when usng the GenePattern Notebook
 Repository, the user will instead be prompted to either sign in as the
 current user or to cancel and sign in as a different user
 
-![image](https://genepattern-notebook.org/wp-content/uploads/2017/02/content_screen_shot_2015-08-24_at_10_27_12.png)
+![image](img/content_screen_shot_2015-08-24_at_10_27_12.png)
 
 ### B. Analysis Cells
 
@@ -52,7 +52,7 @@ Once the Run button has been clicked, all selected files will upload and
 then a Job Cell will be inserted below to indicate the status of the job
 in GenePattern’s queue (see Job Cells below).
 
-![image](https://genepattern-notebook.org/wp-content/uploads/2017/02/content_screen_shot_2015-08-24_at_10_32_11.png)
+![image](img/content_screen_shot_2015-08-24_at_10_32_11.png)
 
 ### C. Analysis Jobs
 
@@ -77,7 +77,7 @@ submitting a job. These options are hidden by default, but can be made
 visible by going to the cell's Gear () menu and selecting Toggle Job
 Options.
 
-![image](https://genepattern-notebook.org/wp-content/uploads/2017/02/content_screen_shot_2015-08-24_at_10_33_20.png)
+![image](img/content_screen_shot_2015-08-24_at_10_33_20.png)
 
 ## 2. Markdown Cells
 
@@ -113,7 +113,7 @@ the cell, allowing the user to format text, insert headers or add links.
 Style the text as desired, and when finished, click the button to finish
 editing.
 
-![image](https://genepattern-notebook.org/wp-content/uploads/2017/02/wysiwyg.jpg)
+![image](img/wysiwyg.jpg)
 
 ## 4. Workflow Execution
 

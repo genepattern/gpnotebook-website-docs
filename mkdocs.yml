@@ -5,5 +5,22 @@ repo_url: https://github.com/genepattern/gpnotebook-website-docs
 extra:
   version: 1.0
 use_directory_urls: true
+site_favicon: favicon/favicon.ico
 extra_css:
   - css/extra.css
+nav:
+  - 'Home': 'index.md'
+  - Documentation:
+    - 'Getting Started': 'getting-started.md'
+    - 'Basic Features': 'basic-features.md'
+    - 'Publish and Share Notebooks': 'publish.md'
+    - 'New Features': 'new-features.md'
+    - 'Programmatic Features': 'programmatic.md'
+    - 'Install': 'local-installation.md'
+    - 'For Jupyter Users': 'jupyter-users.md'
+  - Release Notes:
+    - 'Release Notes': 'releases.md'
+  - FAQ:
+    - 'FAQ': 'faq.md'
+  - Contact:
+    - 'Contact': 'contact.md'

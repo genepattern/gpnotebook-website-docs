@@ -1,7 +1,6 @@
 # FAQ
 
-Q: How do I move notebooks or other files to different directories?
-===================================================================
+## Q: How do I move notebooks or other files to different directories?
 
 A: You can move a notebook or other file to another directory by
 clicking the checkbox next to the file and then clicking the Rename
@@ -14,8 +13,7 @@ file’s name. For example, if I wanted to move the Run an Analysis.ipynb
 notebook up a directory, I would rename the file ../Run an
 Analysis.ipynb.
 
-Q: I opened the notebook and I only see code.
-=============================================
+## Q: I opened the notebook and I only see code.
 
 A: If you ever load a notebook and see only code instead of your
 GenePattern cells, this is an indicator that IPython/Jupyter has for
@@ -25,8 +23,7 @@ This issue can be solved by executing the top code cell for GenePattern.
 Simply select this cell and then select Cell &gt; Run from the menu. A
 screenshot of the code for this cell is below.
 
-Q: I received a "Connection Reset by Peer" Error, what does it mean?
-====================================================================
+## Q: I received a "Connection Reset by Peer" Error, what does it mean?
 
 A: If you are attempting to programmatically connect to GenePattern and
 receive a Connection Reset by Peer error, this is likely caused by your

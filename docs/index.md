@@ -13,7 +13,7 @@ text editor**, which allows a user to format notes and documentation in
 a notebook in much the same way that one might use Microsoft Word or
 Libre Office
 
-## How to install:
+How to install:
 
 **pip**
 
