@@ -9,8 +9,7 @@ Amazon cloud. If you wish to install the GenePattern Notebook
 environment on a local machine, you can follow [these
 instructions](https://www.genepattern-notebook.org/install/).
 
-1. Login to the GenePattern Notebook Repository
-===============================================
+## 1. Login to the GenePattern Notebook Repository
 
 Open up the GenePattern Notebook Repository by visiting
 <https://notebook.genepattern.org> and then log in with your GenePattern
@@ -18,8 +17,7 @@ account. If you do not have a GenePattern account you can sign up for
 one by clicking the Register a New GenePattern Account button on the
 right
 
-2. Create a New GenePattern Notebook
-====================================
+## 2. Create a New GenePattern Notebook
 
 On the page listing notebook files, look in the upper right and you
 should see three buttons: Upload, New and a Refresh icon. Pull down the
@@ -33,8 +31,7 @@ executed from cells, documentation can be added and GenePattern widgets
 can be entered to launch analyses. For general information on how to use
 Jupyter notebooks, see the [Jupyter documentation](https://jupyter.org/).
 
-3. Log into GenePattern
-=======================
+## 3. Log into GenePattern
 
 Select any blank cell Change that cell’s type to GenePattern using the
 menu found in the Jupyter toolbar. You may be prompted to confirm that
@@ -46,8 +43,7 @@ select is the Broad-hosted GenePattern server,
 fields, click Log into GenePattern. If one does not have a GenePattern
 account, first select the server and then click Register an Account.
 
-4. Begin an Analysis
-====================
+## 4. Begin an Analysis
 
 Once you are logged in, a GenePattern button will appear on the left
 side of the Notebook. This button is only visible when a GenePattern
@@ -68,8 +64,7 @@ then the cell will change to indicate the status of the job in
 GenePattern’s queue. Jobs progress through the states of Pending,
 Running and finally either to Completed or Error.
 
-5. Working with Results
-=======================
+## 5. Working with Results
 
 When an analysis is completed, the cell will display the result files.
 Clicking on one of these files will show a menu of options, such as
@@ -89,8 +84,7 @@ downstream form. In the case of sending to a new task, a new cell will
 be created for the downstream analysis. Alternatively, result files can
 also be dragged-and-dropped into the correct form.
 
-6. Access in Python
-===================
+## 6. Access in Python
 
 Programmatic access to all GenePattern jobs and results is also
 automatically available using GenePattern’s Python library. Any job

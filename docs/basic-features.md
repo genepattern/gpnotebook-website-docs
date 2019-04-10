@@ -19,8 +19,7 @@ Cell &gt; Cell Type &gt; GenePattern menu or by going to the dropdown
 menu in the notebook toolbar and selecting GenePattern from the list of
 options.
 
-A. Authentication Cells
------------------------
+### A. Authentication Cells
 
 The first GenePattern cell that a user is likely to encounter is an
 Authentication Cell. This cell allows a user to sign into a GenePattern
@@ -35,8 +34,7 @@ current user or to cancel and sign in as a different user
 
 ![image](https://genepattern-notebook.org/wp-content/uploads/2017/02/content_screen_shot_2015-08-24_at_10_27_12.png)
 
-B. Analysis Cells
------------------
+### B. Analysis Cells
 
 After a user has signed in using an Authentication Cell, the next task
 is usually to insert an Analysis Cell to perform an analysis. To do this
@@ -56,8 +54,7 @@ in GenePattern’s queue (see Job Cells below).
 
 ![image](https://genepattern-notebook.org/wp-content/uploads/2017/02/content_screen_shot_2015-08-24_at_10_32_11.png)
 
-C. Analysis Jobs
-----------------
+### C. Analysis Jobs
 
 Once an analysis is launched, a new job section will appear in the
 analysis cell. This section represents the status of a job that has been
@@ -82,8 +79,7 @@ Options.
 
 ![image](https://genepattern-notebook.org/wp-content/uploads/2017/02/content_screen_shot_2015-08-24_at_10_33_20.png)
 
-2. Markdown Cells
-=================
+## 2. Markdown Cells
 
 Markdown cells are another cell type available in the GenePattern
 Notebook environment. They allow a notebook author to take notes,
@@ -100,8 +96,7 @@ Markdown cells allow the user to format text using either HTML or the
 Markdown syntax. Additionally, we provide a "What You See is What You
 Get" rich text editor (see the feature below).
 
-3. Rich Text Editor
-===================
+## 3. Rich Text Editor
 
 The GenePattern Rich Text Editor allows a user to format notes and
 documentation in a notebook in much the same way that one might use
@@ -120,8 +115,8 @@ editing.
 
 ![image](https://genepattern-notebook.org/wp-content/uploads/2017/02/wysiwyg.jpg)
 
-4. Workflow Execution
-=====================
+## 4. Workflow Execution
+
 
 A GenePattern notebook can be executed as an automated workflow. When
 this happens, each cell is run in order, starting with the top. Code

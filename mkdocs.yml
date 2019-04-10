@@ -1,2 +1,7 @@
 site_name: GenePattern Notebook Documentation
-theme: readthedocs
+theme: 
+  name: readthedocs
+repo_url: https://github.com/genepattern/gpnotebook-website-docs
+extra:
+  version: 1.0
+use_directory_urls: true

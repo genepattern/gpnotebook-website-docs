@@ -1,6 +1,4 @@
----
-title: FAQ
----
+# FAQ
 
 Q: How do I move notebooks or other files to different directories?
 ===================================================================

@@ -1,17 +1,28 @@
-# Welcome to MkDocs
+![genepattern](img/genepattern.png)
+# GenePattern Notebook documentation
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+**GenePattern Notebook** is the first system to integrate the dynamic
+capabilities of notebook systems with an investigator-focused,
+easy-to-use interface that provides access to hundreds of genomic tools
+without the need to write code.
 
-## Commands
+Furthermore, GenePattern Notebook enhances the user experience by
+providing additional services such as, **the Python UIBuilder**, which
+converts any python function into an interative widget, and **a Rich
+text editor**, which allows a user to format notes and documentation in
+a notebook in much the same way that one might use Microsoft Word or
+Libre Office
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## How to install:
 
-## Project layout
+**pip**
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+```
+pip install genepattern-notebook
+```
+
+**conda**
+
+```
+conda install -c genepattern genepattern-notebook 
+```
