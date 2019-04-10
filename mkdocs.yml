@@ -1,4 +1,4 @@
-site_name: GenePattern Notebook Documentation
+site_name: Documentation
 theme: 
   name: readthedocs
 repo_url: https://github.com/genepattern/gpnotebook-website-docs

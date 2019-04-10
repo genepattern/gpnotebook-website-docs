@@ -1,3 +1,6 @@
 img[alt="genepattern"] {
     width: 50px;
 }
+.icon-home:before {
+    content: url(/img/logo.png);
+}
