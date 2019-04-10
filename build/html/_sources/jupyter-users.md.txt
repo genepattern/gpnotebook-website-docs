@@ -91,6 +91,7 @@ button found on a GenePattern widget in the upper right corner and
 select "Toggle Code."
 
 4. UI Builder
+=============
 
 The UI Builder is a way to display any Python function or method call as
 an interactive widget. This will render the parameters of the function
@@ -110,6 +111,7 @@ genepattern package and pass the function to its constructor.
 ![image](https://genepattern-notebook.org/wp-content/uploads/2017/02/call-widget.jpg)
 
 5. GenePattern Python Library
+=============================
 
 Programmatic access to all GenePattern jobs and results is also
 automatically available using GenePattern's Python library. Any job
