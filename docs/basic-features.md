@@ -1,13 +1,10 @@
----
-title: Basic Features
----
+# Basic Features
 
 These features are the most commonly used features in the GenePattern
 Notebook environment. They also form the building blocks for most
 advanced use cases.
 
-1. GenePattern Cells
-====================
+## 1. GenePattern Cells
 
 The GenePattern Notebook environment provides a number of graphical
 widgets that make performing analyses easy, even for non-programming

@@ -1,6 +1,4 @@
----
-title: Getting Started
----
+# Getting Started
 
 NOTE: You can use the GenePattern Notebook environment by [registering
 for a GenePattern account](https://notebook.genepattern.org/) if you do
