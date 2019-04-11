@@ -190,6 +190,9 @@ Release updates for the GenePattern Python Library. Install using
 `pip install genepattern-python` or
 `conda install -c genepattern genepattern-python`.
 
+### GenePattern Python 1.4.2 (September 17, 2018)
+- Bug fixes.
+
 ### GenePattern Python 1.4.1 (February 16, 2018)
 
 -   CLS file creation function added to gp.data package.
@@ -222,8 +225,31 @@ Release updates for the GenePattern Python Library. Install using
 Release updates for the Notebook Tool Manager. Install using
 `pip install nbtools` or `conda install -c genepattern nbtools`.
 
-### Notebook Tool Manager 0.1.7 (April 3, 2018)
+### Notebook Tool Manager 0.2.4 (February 13, 2019)
+- Added ability to send text to UI Builder widgets from markdown cells or upstream output.
+- Added custom status indicator and update call for UIOutput widgets.
+- Added optional/required parameter annotation
+- Fixed bug where some inputs strings would incorrectly be treated as numbers
 
+### Notebook Tool Manager 0.2.3 (October 31, 2018)
+- Bug fix release
+
+### Notebook Tool Manager 0.2.2 (December 21, 2018)
+- File kinds now support wildcards *
+- Compatibility fix for newer versions of Jupyter
+- Bug fixes
+
+### Notebook Tool Manager 0.2.1 (September 17, 2018)
+- Event hooks added to UI Builder
+- Bug fixes
+
+### Notebook Tool Manager 0.2.0 (August 16, 2018)
+- Moved UI Builder functionality from the GenePattern Notebook package to nbtools
+- Moved UI Output functionality from the GenePattern Notebook package
+- Added support for output files in subdirectories
+- Added id and events parameters to the UI Builder
+
+### Notebook Tool Manager 0.1.7 (April 3, 2018)
 -   Changed nbextension installation to match new Jupyter 5.3+ standard.
 
 ### Notebook Tool Manager 0.1.6 (December 8, 2017)
@@ -242,6 +268,9 @@ Release updates for the Notebook Tool Manager. Install using
 Release updates for the Rich Text Editor. Install using
 `pip install jupyter-wysiwyg` or
 `conda install -c genepattern jupyter-wysiwyg`.
+
+### Rich Text Editor 0.1.9 (December 4, 2018)
+- Fixed a bug in the install process for Jupyter 5.3.
 
 ### Rich Text Editor 0.1.8 (May 3, 2018)
 
