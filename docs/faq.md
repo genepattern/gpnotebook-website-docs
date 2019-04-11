@@ -1,4 +1,5 @@
 # FAQ
+---
 
 ## Q: How do I move notebooks or other files to different directories?
 
@@ -13,6 +14,8 @@ file’s name. For example, if I wanted to move the Run an Analysis.ipynb
 notebook up a directory, I would rename the file ../Run an
 Analysis.ipynb.
 
+![image](img/content_move.jpg)
+
 ## Q: I opened the notebook and I only see code.
 
 A: If you ever load a notebook and see only code instead of your
@@ -22,6 +25,8 @@ some reason failed to load the GenePattern Notebook extension.
 This issue can be solved by executing the top code cell for GenePattern.
 Simply select this cell and then select Cell &gt; Run from the menu. A
 screenshot of the code for this cell is below.
+
+![image](img/content_screen_shot_2015-10-19_at_13_24_05.png)
 
 ## Q: I received a "Connection Reset by Peer" Error, what does it mean?
 
@@ -34,3 +39,5 @@ To fix this issue you will need to update the version of OpenSSL used by
 your operating system or Python installation. This is particularly an
 issue with older versions of macOS. Instructions on how to update the
 version of OpenSSL used by macOS can be found here.
+
+![image](img/content_reset.jpg)

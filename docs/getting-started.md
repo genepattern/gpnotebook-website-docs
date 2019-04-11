@@ -1,13 +1,8 @@
 # Getting Started
+---
 
-NOTE: You can use the GenePattern Notebook environment by [registering
-for a GenePattern account](https://notebook.genepattern.org/) if you do
-not already have one, and logging into the [GenePattern Notebook
-Repository](https://notebook.genepattern.org/). This option requires no
-installation and provides the advantage of running your notebooks in the
-Amazon cloud. If you wish to install the GenePattern Notebook
-environment on a local machine, you can follow [these
-instructions](https://www.genepattern-notebook.org/install/).
+!!! note 
+    You can use the GenePattern Notebook environment by [registering for a GenePattern account](https://notebook.genepattern.org/) if you do not already have one, and logging into the [GenePattern Notebook Repository](https://notebook.genepattern.org/). This option requires no installation and provides the advantage of running your notebooks in the Amazon cloud. If you wish to install the GenePattern Notebook environment on a local machine, you can follow [these instructions](https://www.genepattern-notebook.org/install/).
 
 ## 1. Login to the GenePattern Notebook Repository
 
@@ -16,6 +11,8 @@ Open up the GenePattern Notebook Repository by visiting
 account. If you do not have a GenePattern account you can sign up for
 one by clicking the Register a New GenePattern Account button on the
 right
+
+![image](img/content_screen_shot_2015-08-24_at_10_07_11.png)
 
 ## 2. Create a New GenePattern Notebook
 
@@ -33,15 +30,21 @@ Jupyter notebooks, see the [Jupyter documentation](https://jupyter.org/).
 
 ## 3. Log into GenePattern
 
-Select any blank cell Change that cell’s type to GenePattern using the
+* Select any blank cell 
+* Change that cell’s type to GenePattern using the
 menu found in the Jupyter toolbar. You may be prompted to confirm that
 you want to turn this cell into a GenePattern cell. This is expected.
-Once inserted, the cell will prompt you to select a GenePattern server,
+* Once inserted, the cell will prompt you to select a GenePattern server,
 as well as to enter a username and password. The default server to
 select is the Broad-hosted GenePattern server,
-<https://genepattern.broadinstitute.org>. Once you have filled in these
-fields, click Log into GenePattern. If one does not have a GenePattern
+<https://genepattern.broadinstitute.org>. 
+* Once you have filled in these
+fields, click Log into GenePattern. 
+
+If one does not have a GenePattern
 account, first select the server and then click Register an Account.
+
+![image](img/content_screen_shot_2015-08-24_at_10_27_12.png)
 
 ## 4. Begin an Analysis
 
@@ -51,18 +54,26 @@ cell is selected. Clicking this button will open a sliding menu, which
 allows the user to select and run GenePattern analyses on the
 GenePattern server.
 
+![image](img/content_screen_shot_2015-08-24_at_10_29_20.png)
+
 You can search these analyses using the Type to Filter box found in the
 upper right corner of the sliding menu. Once you have selected an
 analysis, click it to add it as a cell in the notebook.
 
+![image](img/content_screen_shot_2015-08-24_at_10_30_39.png)
+
 Every task has a number of parameters, which can be used to upload data
 and to select other options for the analysis. Once you fill in these
-parameters, click Run to submit them as a job on the GenePattern server.
+parameters, click ![run](img/run.png) to submit them as a job on the GenePattern server.
 
-Once the Run button has been clicked, all selected files will upload and
+![image](img/content_screen_shot_2015-08-24_at_10_32_11.png)
+
+Once the ![run](img/run.png) button has been clicked, all selected files will upload and
 then the cell will change to indicate the status of the job in
 GenePattern’s queue. Jobs progress through the states of Pending,
 Running and finally either to Completed or Error.
+
+![image](img/content_screen_shot_2015-08-24_at_10_33_20.png)
 
 ## 5. Working with Results
 
@@ -76,6 +87,8 @@ determine what went wrong with the analysis.
 Result files can only be sent to GenePattern cells which are ready to
 accept input files.
 
+![image](img/SendToCode.PNG)
+
 The result file of one analysis can be easily be used as input for a
 later analysis. Simply click the result file to open the menu, and
 select either an existing downstream task or a new task. Clicking one of
@@ -88,13 +101,26 @@ also be dragged-and-dropped into the correct form.
 
 Programmatic access to all GenePattern jobs and results is also
 automatically available using GenePattern’s Python library. Any job
-executed in a notebook can afterward be referenced using job followed by
-the job number. For example, if a job is number 1170434 (such as in the
-screenshot above), the variable name would be job1170434 Entering this
+executed in a notebook can afterward be referenced using 
+```
+
+job
+
+``` 
+followed by the job number. For example, if a job is number 
+```
+
+1170434 
+
+```
+(such as in the screenshot above), the variable name would be job1170434 Entering this
 into a code cell will return a reference to a GPJob object.
 
-For more information on using the GenePattern Python library, see the
-GenePattern Programmer’s Guide. Code examples of how to reference
-GenePattern jobs or GenePattern result files are available in the
+* For more information on using the GenePattern Python library, see the
+[GenePattern Programmer’s Guide](http://www.broadinstitute.org/cancer/software/genepattern/programmers-guide#_Using_GenePattern_from_Python). 
+
+Code examples of how to reference GenePattern jobs or GenePattern result files are available in the
 notebook by clicking a job result and selecting “View Code Use” in the
 menu.
+
+![image](img/SendToCode.PNG)

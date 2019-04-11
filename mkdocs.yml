@@ -8,6 +8,10 @@ use_directory_urls: true
 site_favicon: favicon/favicon.ico
 extra_css:
   - css/extra.css
+markdown_extensions:
+    - toc:
+        baselevel: 4
+    - admonition
 nav:
   - 'Home': 'index.md'
   - Documentation:

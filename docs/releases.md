@@ -1,8 +1,32 @@
 # Release Notes
+--- 
 
 ## GenePattern Notebook Repository
 
-Release updates for the GenePattern Notebook Repository.
+Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
+
+### GenePattern Notebook Repository 19.02 (February 14, 2018)
+- Improved notebook preview functionality.
+- Added the ability to comment on public notebooks.
+- Added ability to share with collaborators from within a notebook.
+- New repository introductory tour.
+- Loading indicator while generating notebook preview.
+- Bug fixes.
+
+### GenePattern Notebook Repository 18.11 (November 13, 2018)
+- Added "My Notebooks" to the notebook library.
+- Renamed Public Notebooks tab to Notebook Library.
+- Added URL to get a copy of the notebook and open it all in a single link click.
+- When opening a public notebook, show the user where it was copied to.
+- Bug fixes.
+
+### GenePattern Notebook Repository 18.09 (September 14, 2018)
+- Notify users when others are editing a shared notebook.
+- Added edit sharing button to dialog in public notebooks tab.
+- Restructure notebook sharing to shared by/with me.
+- Add sharing invite badge to public notebooks tab.
+- Added Human Cell Atlas theme.
+- Bug fixes.
 
 ### GenePattern Notebook Repository 18.07 (July 24, 2018)
 
@@ -10,7 +34,7 @@ Release updates for the GenePattern Notebook Repository.
 -   Improved integration with JupyterHub's Services API.
 -   Admins now have an interface for pinning and protecting tags..
 -   Improved preview functionality for the public notebooks.
--   Added support for the NDEx2 API
+-   Added support for the [NDEx2 API](http://www.ndexbio.org/)
 
 ### GenePattern Notebook Repository 18.03 (March 23, 2018)
 
@@ -22,7 +46,7 @@ Release updates for the GenePattern Notebook Repository.
 
 -   Upgraded repository to JupyterHub 0.8, Jupyter 5.3 and ipywidgets 7.
 -   Updated repository containers to include R 3.4.3 and rpy2 package.
-    See R Support documentation for more details.
+    See [R Support documentation](http://genepattern-notebook.org/programmatic/#r-support) for more details.
 -   Updated spawner and authenticator plugins to latest JupyterHub API.
 
 ### GenePattern Notebook Repository 17.12 (December 8, 2017)
@@ -39,7 +63,7 @@ Release updates for the GenePattern Notebook Repository.
 -   Scientific computing libraries updated.
 -   Deprecated Python 2 kernel.
 
-### GenePattern Notebook Repository 17.05 (May 15, 2017)
+### [GenePattern Notebook Repository 17.05](/notebook-repo-17.05/) (May 15, 2017)
 
 -   Notebook sharing functionality.
 -   Infrastructure update (AWS hosting).
@@ -48,9 +72,42 @@ Release updates for the GenePattern Notebook Repository.
 
 ## GenePattern Notebook Extension
 
-Release updates for the GenePattern Notebook nbextension. Install using
+Release updates for the [GenePattern Notebook nbextension](https://github.com/genepattern/genepattern-notebook). Install using
 `pip install genepattern-notebook` or
 `conda install -c genepattern genepattern-notebook`.
+
+### GenePattern Notebook 0.8.5 (February 13, 2019)
+- Bug fix release.
+
+### GenePattern Notebook 0.8.4 (January 10, 2019)
+- Bug fix release.
+- GenePattern Notebook 0.8.3 (December 21, 2018)
+- Removed genepattern.broadinstitute.org from the list of servers.
+- Added cell templates.
+- Support for output files in subdirectories for GPJob widget.
+
+### GenePattern Notebook 0.8.2 (October 31, 2018)
+- Default server changed to GenePattern Cloud.
+- File kinds can include a wildcard character.
+- Compatibility fix for latest version of ipywidgets.
+- Combined the gear menus in analysis/job cells.
+- Warning message added to orphaned analysis cells
+- Jobs that output index.html will display it in an iframe
+- Bug fixes.
+
+### GenePattern Notebook 0.8.1 (September 17, 2018)
+- Bug fix release.
+- GenePattern Notebook 0.8.0 (August 16, 2018)
+- Refactored to support nbtools 0.2.0.
+- Moved UI Builder and UI Output functionality to nbtools package.
+- Support for output files in subdirectories for GPJob widget.
+
+### GenePattern Notebook 0.7.3 (July 9, 2018)
+- Added new UI Output widget.
+- Added option to not add UI Builder functions to the Notebook Tool Manager.
+- Updated to latest GenePattern URLs.
+- Better support for multiple widgets in combined cells.
+- Bug fixes.
 
 ### GenePattern Notebook 0.7.2 (May 30, 2018)
 

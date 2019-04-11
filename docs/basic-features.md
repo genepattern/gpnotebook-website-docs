@@ -1,22 +1,24 @@
 # Basic Features
+--- 
 
-These features are the most commonly used features in the GenePattern
-Notebook environment. They also form the building blocks for most
-advanced use cases.
+!!! note
+    These features are the most commonly used features in the GenePattern
+    Notebook environment. They also form the building blocks for most
+    advanced use cases.
 
 ## 1. GenePattern Cells
 
 The GenePattern Notebook environment provides a number of graphical
 widgets that make performing analyses easy, even for non-programming
-users. These widgets take the form of GenePattern Cells that allow a
+users. These widgets take the form of *GenePattern Cells* that allow a
 user to prepare analyses, launch jobs and visualize results.
 
 To insert a GenePattern Cell, insert a new cell, either through the
-Insert &gt; Insert Cell Below menu or by clicking the button in the
+*Insert &gt; Insert Cell Below* menu or by clicking the <i class="fa-plus fa"></i> button in the
 notebook toolbar. Once a new cell has been inserted, you can select the
-cell and then change the cell type to GenePattern either by using the
-Cell &gt; Cell Type &gt; GenePattern menu or by going to the dropdown
-menu in the notebook toolbar and selecting GenePattern from the list of
+cell and then change the cell type to *GenePattern* either by using the
+*Cell &gt; Cell Type &gt; GenePattern menu* or by going to the dropdown
+menu in the notebook toolbar and selecting *GenePattern* from the list of
 options.
 
 ### A. Authentication Cells
@@ -38,17 +40,17 @@ current user or to cancel and sign in as a different user
 
 After a user has signed in using an Authentication Cell, the next task
 is usually to insert an Analysis Cell to perform an analysis. To do this
-click the Tools button in the notebook toolbar. This wll open a dialog
+click the <i class="fa-th fa"></i> Tools button in the notebook toolbar. This wll open a dialog
 box with a list of available GenePattern analyses. Search or browse
 through the list and then click one of the options to insert an Analysis
 Cell of that type.
 
 Every Analysis Cell has a number of parameters, which can be used to
 upload data and to select other options for the analysis. Once you fill
-in these parameters, click Run to submit them as a job on the
+in these parameters, click ![run](img/run.png) to submit them as a job on the
 GenePattern server.
 
-Once the Run button has been clicked, all selected files will upload and
+Once the ![run](img/run.png) button has been clicked, all selected files will upload and
 then a Job Cell will be inserted below to indicate the status of the job
 in GenePattern’s queue (see Job Cells below).
 
@@ -64,7 +66,7 @@ states of Pending, Running and finally either to Completed or Error.
 Once a job has completed or experienced an error, the cell will update
 to display a list of outputs. These outputs are files which can be
 displayed in the browser, downloaded or sent as input to another
-GenePattern analysis. Outputs are indicated by the icon.
+GenePattern analysis. Outputs are indicated by the <i class="fa fa-info-circle" style="color: rgb(128, 128, 128);"></i> icon.
 
 To see a list of all output file options, simply click that output in
 the list and a menu wll open, displaying the available options.
@@ -74,7 +76,7 @@ appear inside the Job Cell as well.
 
 Additional options, such as memory requirements, can be specified when
 submitting a job. These options are hidden by default, but can be made
-visible by going to the cell's Gear () menu and selecting Toggle Job
+visible by going to the cell's Gear (<i class="fa fa-gear"></i>) menu and selecting Toggle Job
 Options.
 
 ![image](img/content_screen_shot_2015-08-24_at_10_33_20.png)
@@ -86,14 +88,14 @@ Notebook environment. They allow a notebook author to take notes,
 document methods or embed images in a notebook document.
 
 To insert a markdown cell, first insert a new cell, either through the
-Insert &gt; Insert Cell Below menu or by clicking the button in the
+Insert &gt; Insert Cell Below menu or by clicking the <i class="fa-plus fa"></i> button in the
 notebook toolbar. Once a new cell has been inserted, you can select the
 cell and then change the cell type to Markdown either by using the Cell
 &gt; Cell Type &gt; Markdown menu or by going to the dropdown menu in
 the notebook toolbar and selecting Markdown from the list of options.
 
-Markdown cells allow the user to format text using either HTML or the
-Markdown syntax. Additionally, we provide a "What You See is What You
+Markdown cells allow the user to format text using either [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) or the
+[Markdown](https://daringfireball.net/projects/markdown/syntax) syntax. Additionally, we provide a "What You See is What You
 Get" rich text editor (see the feature below).
 
 ## 3. Rich Text Editor
@@ -105,12 +107,12 @@ tag or line of markdown.
 
 To use the Rich Text Editor, first insert a markdown cell (see the
 instructions above). Once a cell has been changed to the markdown type,
-two buttons should appear to the left of the cell. The button opens the
-Rich Text Editor and the button finalizes the cell and renders the text.
+two buttons should appear to the left of the cell. The ![code](img/fa-code.png) button opens the
+Rich Text Editor and the ![forward](img/fa-forward.png) button finalizes the cell and renders the text.
 
-Click the button and the editor will appear. A toolbar will show above
+Click the ![code](img/fa-code.png) button and the editor will appear. A toolbar will show above
 the cell, allowing the user to format text, insert headers or add links.
-Style the text as desired, and when finished, click the button to finish
+Style the text as desired, and when finished, click the ![forward](img/fa-forward.png) button to finish
 editing.
 
 ![image](img/wysiwyg.jpg)
@@ -126,7 +128,7 @@ forward. If an error is encountered - either as the result of a code
 cell or the status of a GenePattern job - execution halts and waits for
 user input.
 
-By combining this feature with the Job Result Syntax feature, a workflow
+By combining this feature with the [Job Result Syntax](http://genepattern-notebook.org/programmatic/#result-syntax) feature, a workflow
 can be configured to run each step in sequence, taking the output of
 upstream steps and sending the results as the input to downstream
 analyses.
