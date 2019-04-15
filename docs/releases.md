@@ -5,7 +5,7 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
-### GenePattern Notebook Repository 19.02 (February 14, 2018)
+### GenePattern Notebook Repository 19.02 (February 14, 2019)
 - Improved notebook preview functionality.
 - Added the ability to comment on public notebooks.
 - Added ability to share with collaborators from within a notebook.

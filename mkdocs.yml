@@ -14,11 +14,13 @@ markdown_extensions:
     - admonition
 nav:
   - 'Home': 'index.md'
-  - Documentation:
+  - User Guide:
     - 'Getting Started': 'getting-started.md'
     - 'Basic Features': 'basic-features.md'
     - 'Publish and Share Notebooks': 'publish.md'
     - 'New Features': 'new-features.md'
+    - 'Cheat Sheet': 'cheat-sheet.md'
+  - For Developers:
     - 'Programmatic Features': 'programmatic.md'
     - 'Install': 'local-installation.md'
     - 'For Jupyter Users': 'jupyter-users.md'

@@ -19,11 +19,14 @@ Libre Office
 |[Basic Features](basic-features/)|[Local Install](local-installation/)|[GenePattern Notebook Extension](releases/#genepattern-notebook-extension)|
 |[Publish and Share Notebooks](publish/)|[For Jupyter Users](jupyter-users)|[GenePattern Python Library](releases/#genepattern-python-library)|
 |[New Features](new-features/)||[Notebook Tool Manager](releases/#notebook-tool-manager)||
-|||[Rich Text Editor](releases/#rich-text-editor)||
+|[Cheat Sheet](cheat-sheet/)||[Rich Text Editor](releases/#rich-text-editor)||
 
 ## Additional Resources
 
-|[GenePattern Notebook Homepage](https://genepattern-notebook.org)|[Contact](contact/)|[FAQ](faq/)|
-|-|-|-|
-|[**GitHub Page**](https://github.com/genepattern/genepattern-notebook)|||
-||||
+|[![genepattern](img/genepattern.png) GenePattern Notebook Homepage](https://genepattern-notebook.org)|[![github](img/github.png) **GitHub Page**](https://github.com/genepattern/genepattern-notebook)|
+|-|-|
+|[![gparc](img/gparc.png) **GenePattern Archive (GParc)**](http://www.gparc.org/)|[![jupyter](img/jupyter.png) **Jupyter Project**](http://jupyter.org/)|
+|[![python](img/python.png) Python](https://www.python.org/)|
+
+- [**Contact**](contact/)
+- [**FAQ**](faq/)

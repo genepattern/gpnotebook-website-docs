@@ -1,6 +1,9 @@
 /* Extra CSS for the GenePattern Notebook Documentation Pages */
 
-img[alt="genepattern"] {
+img[alt="image"] {
+    box-shadow: 5px 5px 10px lightgrey;
+}
+img[alt="genepattern"], img[alt="github"], img[alt="gparc"], img[alt="jupyter"], img[alt="python"] {
     width: 50px;
 }
 img[alt="run"] {
@@ -31,4 +34,7 @@ h1, h2, h3, h4, h5, h6, legend {
     margin-top:auto;
     margin-bottom: 10px;
     margin-top: 40px;
+}
+.btn a {
+    color: white;
 }
