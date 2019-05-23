@@ -10,7 +10,7 @@ extra_css:
   - css/extra.css
 markdown_extensions:
     - toc:
-        baselevel: 4
+        baselevel: 5
     - admonition
 nav:
   - 'Home': 'index.md'
@@ -20,10 +20,11 @@ nav:
     - 'Publish and Share Notebooks': 'publish.md'
     - 'New Features': 'new-features.md'
     - 'Cheat Sheet': 'cheat-sheet.md'
-  - For Developers:
+  - Developer Guide:
     - 'Programmatic Features': 'programmatic.md'
     - 'Install': 'local-installation.md'
     - 'For Jupyter Users': 'jupyter-users.md'
+    - 'Pre-installed Packages': 'packages.md'
   - Release Notes:
     - 'Release Notes': 'releases.md'
   - FAQ:

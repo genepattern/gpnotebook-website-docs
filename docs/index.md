@@ -1,24 +1,14 @@
 
 # ![genepattern](img/genepattern.png) GenePattern Notebook documentation
 
-**GenePattern Notebook** is the first system to integrate the dynamic
-capabilities of notebook systems with an investigator-focused,
-easy-to-use interface that provides access to hundreds of genomic tools
-without the need to write code.
+**GenePattern Notebook**
 
-Furthermore, GenePattern Notebook enhances the user experience by
-providing additional services such as, **the Python UIBuilder**, which
-converts any python function into an interative widget, and **a Rich
-text editor**, which allows a user to format notes and documentation in
-a notebook in much the same way that one might use Microsoft Word or
-Libre Office
-
-|User Guide|For Developers|[Release Notes](releases/)|
+|User Guide|Developer Guide|[Release Notes](releases/)|
 |--|--|--|
 |[Getting Started](getting-started/)|[Programmatic Features](programmatic/)|[GenePattern Notebook Repository](releases/#genepattern-notebook-repository)|
 |[Basic Features](basic-features/)|[Local Install](local-installation/)|[GenePattern Notebook Extension](releases/#genepattern-notebook-extension)|
 |[Publish and Share Notebooks](publish/)|[For Jupyter Users](jupyter-users)|[GenePattern Python Library](releases/#genepattern-python-library)|
-|[New Features](new-features/)||[Notebook Tool Manager](releases/#notebook-tool-manager)||
+|[New Features](new-features/)|[Pre-installed Packages](packages/)|[Notebook Tool Manager](releases/#notebook-tool-manager)||
 |[Cheat Sheet](cheat-sheet/)||[Rich Text Editor](releases/#rich-text-editor)||
 
 ## Additional Resources
@@ -26,7 +16,7 @@ Libre Office
 |[![genepattern](img/genepattern.png) GenePattern Notebook Homepage](https://genepattern-notebook.org)|[![github](img/github.png) **GitHub Page**](https://github.com/genepattern/genepattern-notebook)|
 |-|-|
 |[![gparc](img/gparc.png) **GenePattern Archive (GParc)**](http://www.gparc.org/)|[![jupyter](img/jupyter.png) **Jupyter Project**](http://jupyter.org/)|
-|[![python](img/python.png) Python](https://www.python.org/)|
+|[![python](img/python.png) **Python**](https://www.python.org/)|
 
 - [**Contact**](contact/)
 - [**FAQ**](faq/)
