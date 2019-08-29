@@ -116,25 +116,37 @@ An alternative is to make your links appear in a notebook looking like the [UI B
 
 ### 9. Installing Packages
 While the GenePattern Notebook Workspace comes with many popular bioinformatic and machine learning packages already installed, it also
-provides the ability to customize your workspace by installing new libraries. Behind the scenes, each kernel in the GenePattern Notebook Workspace is encapsulated in a conda environment. To install a new library, simply
-                    activate the appropriate environment and then install the package through either the PIP or conda package managers.
+provides the ability to customize your workspace by installing new libraries. Behind the scenes, each kernel in the GenePattern Notebook Workspace is encapsulated in a conda environment. To install a new library, simply activate the appropriate environment and then install the package through either the PIP or conda package managers.
 
 #### Conda Environments
 To activate a conda environment, open a new terminal and then enter one of the following lines, as appropriate for your notebook's
  environment. Since the Python 3.7 kernel is used by default, if there is any doubt, activate that environment.
-                ```source activate python3.7
-                source activate python3.6```
+ ```
+ 
+ source activate python3.7
+ source activate python3.6
+ 
+ ```
 
 #### Installing Through PIP<
 Once the correct conda environment has been activated, installing new packages through PIP is as easy as adding the <em>--user</em> parameter to the PIP command. (You may need to shut down and restart your notebook if it was opened before the library was installed.)
-               ```pip install --user &lt;package_name>```
+```
+
+pip install --user <package_name>
+
+```
 
 #### Installing Through Conda
 Installing packages through conda requires one additional step. You must first tell conda where to install new packages, then you can install       them using a simple <em>conda install</em> command. See the commands below.</p>
 
 Without this additional <em>conda config</em> command, packages will install successfully, but will be lost each time you log in.
-                ```conda config --add pkgs_dirs ~/.local/lib/python3.7/site-packages
-                conda install &lt;package_name>```
+
+```
+
+conda config --add pkgs_dirs ~/.local/lib/python3.7/site-packages
+conda install <package_name>
+                
+```
 
 
 ## UI Builder
