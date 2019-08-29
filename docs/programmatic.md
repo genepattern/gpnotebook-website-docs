@@ -19,12 +19,19 @@ A complete tutorial on using the GenePattern Python Library is available as a pu
 ### 3. Send to Code
 The GenePattern Python Library seamlessly integrates with GenePattern cells. Code examples of how to reference GenePattern jobs or GenePattern result files are available in GenePattern Job Cells by clicking a job result and selecting “Send to Code” in the menu.
 
-![image](img/content_screen-shot-2015-10-15-at-13_50.jpg)
+![image](img/programmatic_send_to_code.png)
+
+This will add a new cell below prefilled with the python to retrieve the file as a GPFile object from the GenePattern Python Library.
+
+![image](img/programmatic_send_to_code_output.png)
 
 ### 4. Send to Dataframe
 The GenePattern Python Library also provides functionality for common GenePattern file formats, allowing them seamlessly integrate with [Pandas](http://pandas.pydata.org/), a popular Python data analysis library.
 
 Both the [GCT and ODF file formats](http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide) are easily loaded as Pandas Dataframes. Code examples of how to load these files are available in GenePattern Job Cells by clicking a GCT or ODF job result and selecting “Send to Dataframe” in the menu.
+
+![image](img/programmatic_send_to_dataframe_output.png)
+
 
 ### 5. Python Variable Input
 As part of the seamless integration between Python and GenePattern, Python variables may be directly used as input in GenePattern Analysis Cells. To use a Python variable as input, first define the variable in a code cell, then in a GenePattern Analysis cell, enter the variable name surrounded by two sets of curly brackets. For example, using the variable
@@ -102,6 +109,10 @@ GenePattern Notebook makes doing this easy. Just give the link to the external f
 <a class="nbtools-markdown-file" href="http://example.url">The text to link here.</a>
 
 ```
+An alternative is to make your links appear in a notebook looking like the output from a remote GenePattern job.  To do this, give an array of 1 or more links to the genepattern.GPUIOutput() method and return it at the end of a cell.  An example (with code also displayed) is shown beloe.
+
+![image](img/programmatic_links.png)
+
 
 ## UI Builder
 ---
