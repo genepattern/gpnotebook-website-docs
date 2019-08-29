@@ -100,6 +100,12 @@ Use the first ODF file output by the second PCA job.
 ```
 Use the third CSV file output by the first FlowMeansCluster job.
 
+Note that unlike python variables which also use the ```{{ }}```  syntax, referencing GenePattern Job outputs in this manner only works within a the interface for a GenePattern analysis or  [UI Builder](#ui-builder) interface, and cannot be used directly in code cells.
+
+![image](img/programmatic_job_result_syntax.png)
+
+
+
 ### 8. Files in Markdown Cells
 Sometimes it is beneficial to the narrative of a notebook to link to externally-hosted files in a markdown cell and then to use those files in a later programmatic step.
 
@@ -109,7 +115,7 @@ GenePattern Notebook makes doing this easy. Just give the link to the external f
 <a class="nbtools-markdown-file" href="http://example.url">The text to link here.</a>
 
 ```
-An alternative is to make your links appear in a notebook looking like the [UI Builder](#ui-builder) output  from a remote GenePattern job.  To do this, give an array of 1 or more links to the genepattern.GPUIOutput() method and return it at the end of a cell.  An example (with code also displayed) is shown beloe.
+An alternative is to make your links appear in a notebook looking like the [UI Builder](#ui-builder) output  from a remote GenePattern job.  To do this, give an array of 1 or more links to the genepattern.GPUIOutput() method and return it at the end of a cell.  An example (with code also displayed) is shown below.
 
 ![image](img/programmatic_links.png)
 
