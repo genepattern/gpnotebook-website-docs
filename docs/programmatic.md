@@ -14,7 +14,7 @@ More information on code cells and their variousoptions is available in the [Jup
 ### 2. GenePattern Python Library
 A library is available for using Python to interact with available GenePattern's service. This allows a user to programmatically prepare analyses, launch jobs and retrieve results.
 
-A complete tutorial on using the GenePattern Python Library is available as a public notebook in the [GenePattern Notebook Repository](https://notebook.genepattern.org/). Additional information is available in our [documentation](https://github.com/genepattern/example-notebooks/blob/master/GenePattern%20Python%20Tutorial.ipynb).
+A complete tutorial on using the GenePattern Python Library is available as a public notebook in the [GenePattern Notebook Repository](https://notebook.genepattern.org/services/sharing/notebooks/362/preview/). Additional information is available in our published [example notebooks](https://github.com/genepattern/example-notebooks/tree/master/Example%20Notebooks) on GitHub.
 
 ### 3. Send to Code
 The GenePattern Python Library seamlessly integrates with GenePattern cells. Code examples of how to reference GenePattern jobs or GenePattern result files are available in GenePattern Job Cells by clicking a job result and selecting “Send to Code” in the menu.
