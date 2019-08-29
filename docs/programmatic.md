@@ -109,7 +109,7 @@ GenePattern Notebook makes doing this easy. Just give the link to the external f
 <a class="nbtools-markdown-file" href="http://example.url">The text to link here.</a>
 
 ```
-An alternative is to make your links appear in a notebook looking like the output from a remote GenePattern job.  To do this, give an array of 1 or more links to the genepattern.GPUIOutput() method and return it at the end of a cell.  An example (with code also displayed) is shown beloe.
+An alternative is to make your links appear in a notebook looking like the [UI Builder](#ui-builder) output  from a remote GenePattern job.  To do this, give an array of 1 or more links to the genepattern.GPUIOutput() method and return it at the end of a cell.  An example (with code also displayed) is shown beloe.
 
 ![image](img/programmatic_links.png)
 
