@@ -62,16 +62,11 @@ After the extension has been loaded, beginning a cell with
 
 ```
 will tell the notebook environment to execute the rest of the code in the cell using R rather than Python. An example is given below.
-```r
 
-%%R
+![image](img/programmatic_r_support.png)
 
-# Define a vector with 5 values and show the plot
-values <- c(1, 3, 6, 4, 9)
-plot(values, type="o", col="blue")
-title(main="Example Plot Created With R", col.main="red", font.main=4)
 
-```
+
 
 ### 7. Job Result Syntax
 When specifying the input to a GenePattern analysis cell, a simple syntax can be used to select the output of a upstream job. To do this, inside double curly brackets, write the name of the GenePattern module and extension of the output file separated by a period. If multiple jobs exist in the notebook using that module, or multiple files are returned of that type, an index can optionally be specified in square brackets. Several examples are given below.
