@@ -100,7 +100,7 @@ Use the first ODF file output by the second PCA job.
 ```
 Use the third CSV file output by the first FlowMeansCluster job.
 
-Note that unlike python variables which also use the ```{{ }}```  syntax, referencing GenePattern Job outputs in this manner only works within a the interface for a GenePattern analysis or  [UI Builder](#ui-builder) interface, and cannot be used directly in code cells.
+Note that unlike python variables which also use the ```{{ }}```  syntax, referencing GenePattern Job outputs in this manner only works within the interface for a GenePattern analysis or  [UI Builder](#ui-builder) interface, and cannot be used directly in code cells.  e.g.
 
 ![image](img/programmatic_job_result_syntax.png)
 
