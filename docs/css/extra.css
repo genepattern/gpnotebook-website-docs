@@ -4,7 +4,7 @@ img[alt="image"] {
     box-shadow: 5px 5px 10px lightgrey;
 }
 img[alt="genepattern"], img[alt="github"], img[alt="gparc"], img[alt="jupyter"], img[alt="python"] {
-    width: 50px;
+    width: 50px !important;
 }
 img[alt="run"] {
     width:40px;
