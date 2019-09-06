@@ -10,24 +10,15 @@ extra_css:
   - css/extra.css
 markdown_extensions:
     - toc:
-        baselevel: 5
+        baselevel: 4
     - admonition
 nav:
-  - 'Home': 'index.md'
-  - User Guide:
-    - 'Getting Started': 'getting-started.md'
-    - 'Basic Features': 'basic-features.md'
-    - 'Publish and Share Notebooks': 'publish.md'
-    - 'New Features': 'new-features.md'
-    - 'Cheat Sheet': 'cheat-sheet.md'
-  - Developer Guide:
+  - 'GenePattern Notebook Homepage': 'http://genepattern-notebook.org'
+  - Documentation:
     - 'Programmatic Features': 'programmatic.md'
     - 'Install': 'local-installation.md'
     - 'For Jupyter Users': 'jupyter-users.md'
-    - 'Pre-installed Packages': 'packages.md'
-  - Release Notes:
     - 'Release Notes': 'releases.md'
-  - FAQ:
     - 'FAQ': 'faq.md'
-  - Contact:
-    - 'Contact': 'contact.md'
+  - 'Contact': 'contact.md'
+  
