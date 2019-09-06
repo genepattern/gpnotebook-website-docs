@@ -6,6 +6,14 @@ img[alt="image"] {
 img[alt="genepattern"], img[alt="github"], img[alt="gparc"], img[alt="jupyter"], img[alt="python"] {
     width: 50px !important;
 }
+@media screen and (max-width: 768px) {
+    #genepattern-img {
+        width: 50px;
+    }
+    #jupyter-img {
+        width: 50px;
+    }
+}
 img[alt="run"] {
     width:40px;
 }

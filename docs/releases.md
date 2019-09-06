@@ -5,6 +5,33 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
+### GenePattern Notebook Repository 19.07 (July 19, 2019)
+- New GenePattern theme added.
+- Public notebooks now sorted by latest by default
+- Added login/register button to preview page.
+- Improved organization of Community notebooks.
+- Added Workshop Notebooks tab.
+- Added optional email notification when a new notebook is published.
+- Added terms of use.
+- Bug fixes.
+
+### GenePattern Notebook Repository 19.05 (May 7, 2019)
+- Improved notebook preview functionality.
+- Updated Python 3.7 environment with new Python packages
+- Added repository start and stop scripts.
+- Notebook Library tab will now remember user selection.
+- Improved Dockerized architecture.
+- Added support for SwarmSpawner.
+- Improved theme support.
+- Bug fixes.
+
+### GenePattern Notebook Repository 19.04 (April 5, 2019)
+- Added support for user-installed nbextensions.
+- Formalized webtour notebook extension.
+- Formalized repository notebook extension.
+- Added support for newer versions of JupyterHub.
+- Bug fixes.
+
 ### GenePattern Notebook Repository 19.02 (February 14, 2019)
 - Improved notebook preview functionality.
 - Added the ability to comment on public notebooks.
@@ -75,6 +102,16 @@ Release updates for the [GenePattern Notebook Repository](https://notebook.genep
 Release updates for the [GenePattern Notebook nbextension](https://github.com/genepattern/genepattern-notebook). Install using
 `pip install genepattern-notebook` or
 `conda install -c genepattern genepattern-notebook`.
+
+### GenePattern Notebook 19.07 (July 16, 2019)
+- Build improvements and bug fixes
+
+### GenePattern Notebook 19.05 (May 31, 2019)
+- Updated release architecture
+- New versioning scheme
+
+### GenePattern Notebook 0.8.6 (April 10, 2019)
+- Bug fix release.
 
 ### GenePattern Notebook 0.8.5 (February 13, 2019)
 - Bug fix release.
@@ -225,6 +262,25 @@ Release updates for the GenePattern Python Library. Install using
 Release updates for the Notebook Tool Manager. Install using
 `pip install nbtools` or `conda install -c genepattern nbtools`.
 
+### Notebook Tool Manager 19.07 (July 16, 2019)
+- Adding r_build_ui magic (UI Builder support for R cells)
+- Condensed display for UI Builder widgets with no parameters
+- R support critical fix
+- Dropping support for Python 3.5
+
+### Notebook Tool Manager 19.05 (May 31, 2019)
+- Updated release architecture
+- New versioning scheme
+- Added prototype support for R in the UI Builder
+
+### Notebook Tool Manager 0.2.6 (April 12, 2019)
+- Bug fix release
+
+### Notebook Tool Manager 0.2.5 (April 9, 2019)
+- Allow HTML in UIOutput status
+- Hide custom value option in dropdowns by default
+- Bug fixes
+
 ### Notebook Tool Manager 0.2.4 (February 13, 2019)
 - Added ability to send text to UI Builder widgets from markdown cells or upstream output.
 - Added custom status indicator and update call for UIOutput widgets.
@@ -268,6 +324,10 @@ Release updates for the Notebook Tool Manager. Install using
 Release updates for the Rich Text Editor. Install using
 `pip install jupyter-wysiwyg` or
 `conda install -c genepattern jupyter-wysiwyg`.
+
+### Rich Text Editor 19.05 (May 31, 2019)
+- Updated conda packaging
+- Updated versioning scheme
 
 ### Rich Text Editor 0.1.9 (December 4, 2018)
 - Fixed a bug in the install process for Jupyter 5.3.

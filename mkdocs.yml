@@ -13,10 +13,11 @@ markdown_extensions:
         baselevel: 4
     - admonition
 nav:
+  - 'Home': 'index.md'
   - 'GenePattern Notebook Homepage': 'http://genepattern-notebook.org'
   - Documentation:
     - 'Programmatic Features': 'programmatic.md'
-    - 'Install': 'local-installation.md'
+    - 'Local Installation': 'local-installation.md'
     - 'For Jupyter Users': 'jupyter-users.md'
     - 'Release Notes': 'releases.md'
     - 'FAQ': 'faq.md'
