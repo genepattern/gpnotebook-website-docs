@@ -8,7 +8,13 @@ Welcome to GenePattern Notebook Docs's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+
+    Programmatic Features <programmatic>
+    Local Installation <local-installation>
+    For Jupyter Users <jupyter-users>
+    Release Notes <releases>
+    FAQ <faq>
+    Contact <contact>
 
 
 

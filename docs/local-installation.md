@@ -45,7 +45,6 @@ Give the image a few seconds to start and then click the “popout” button to 
 ![image](img/content_screen_shot_2016-02-01_at_15_06_55.png)
 
 ### What’s Next?
-* [Using GenePattern Notebook](user-guide/)
 * [Example Notebooks](http://genepattern-notebook.org/example-notebooks/)
 
 ## Install GenePattern Notebook Manually
@@ -166,7 +165,6 @@ Mac users can access the terminal window through the following:
 ![image](img/content_terminal70p.png)
 
 ## What’s Next?
-* [Using GenePattern Notebook](user-guide/)
 * [Example Notebooks](http://genepattern-notebook.org/example-notebooks/)
 
 ##Compatibility Notes
