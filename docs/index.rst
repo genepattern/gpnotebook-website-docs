@@ -26,6 +26,7 @@ The [**GenePattern Notebook**](http://genepattern-notebook.org) environment inte
 .. toctree::
    :maxdepth: 2
 
+    `GenePattern Notebook Homepage<http://genepattern-notebook.org>`_
     Programmatic Features <programmatic>
     Local Installation <local-installation>
     For Jupyter Users <jupyter-users>

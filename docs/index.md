@@ -1,5 +1,5 @@
 
-# ![genepattern](img/genepattern.png) GenePattern Notebook documentation
+# GenePattern Notebook Documentation
 
 ---
 
@@ -13,9 +13,9 @@
 
 ### GenePattern and Jupyter Notebook
 
-<a href="http://genepattern.org"><img src="http://genepattern-notebook.org/wp-content/uploads/2017/02/genepattern.png" width=50px style="float: left; margin: 5px;"></a> [**GenePattern**](https://genepattern.org) provides hundreds of analytical tools for the analysis of gene expression (RNA-seq and microarray), sequence variation and copy number, proteomic, flow cytometry, and network analysis. These tools are all available through a Web interface with no programming experience required.
+<a href="http://genepattern.org"><img src="img/genepattern.png" width=50px style="float: left; margin: 5px;"></a> [**GenePattern**](https://genepattern.org) provides hundreds of analytical tools for the analysis of gene expression (RNA-seq and microarray), sequence variation and copy number, proteomic, flow cytometry, and network analysis. These tools are all available through a Web interface with no programming experience required.
 
-<a href="https://jupyter.org"><img src="http://genepattern-notebook.org/wp-content/uploads/2017/02/jupyter.png" width=50px style="float: left; margin: 5px;"></a> [**Jupyter Notebook**](https://jupyter.org) is a web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. If you are unfamiliar with the Jupyter Notebook environment, we recommend you take a look at the [**Jupyter Quickstart Guide**](https://jupyter.readthedocs.io/en/latest/content-quickstart.html)
+<a href="https://jupyter.org"><img src="img/jupyter.png" width=50px style="float: left; margin: 5px;"></a> [**Jupyter Notebook**](https://jupyter.org) is a web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. If you are unfamiliar with the Jupyter Notebook environment, we recommend you take a look at the [**Jupyter Quickstart Guide**](https://jupyter.readthedocs.io/en/latest/content-quickstart.html)
 
 ### What is GenePattern Notebook?
 

@@ -27,10 +27,9 @@ a:visited {
 .wy-menu-vertical a {
     color: #b3b3b3 !important;
 }
-.wy-side-nav-search {
-    background: #2980B9 !important;
+.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
+    color: #fcfcfc;
 }
-
 h1, h2, h3, h4, h5, h6, legend {
     margin-top:auto;
     margin-bottom: 10px;
