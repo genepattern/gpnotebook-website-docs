@@ -10,7 +10,7 @@ extra_css:
   - css/extra.css
 markdown_extensions:
     - toc:
-        baselevel: 4
+        baselevel: 5
     - admonition
 nav:
   - 'Home': 'index.md'
