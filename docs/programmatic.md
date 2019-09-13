@@ -128,7 +128,7 @@ To activate a conda environment, open a new terminal and then enter one of the f
  
  ```
 
-#### Installing Through PIP<
+#### Installing Through PIP
 Once the correct conda environment has been activated, installing new packages through PIP is as easy as adding the <em>--user</em> parameter to the PIP command. (You may need to shut down and restart your notebook if it was opened before the library was installed.)
 ```
 
@@ -437,10 +437,11 @@ Specific text options can be made easily accessible from a text input by annotat
 The following minor features are available available in the UI Builder.
 
 * **register_tool:** Sets whether to register this function with the Notebook Tool Manager. Defaults to True.
+* **collapse:** Sets whether to collapse the UI Builder widget when the function is run. Defaults to True.
 * **function_import:** Override the import name of an existing function.
 ```
 
-@nbtools.build_ui(register_tool=False, function_import='example_package.example_function')
+@nbtools.build_ui(register_tool=False, collapse=False, function_import='example_package.example_function')
 def example_function(first_parameter, second_parameter):
     . . .
 
