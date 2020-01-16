@@ -61,7 +61,7 @@ decorator==4.4.0
 defusedxml==0.6.0
 dill==0.2.7.1
 distributed==1.21.8
-Django==1.11.20
+Django==1.11.23
 django-bootstrap-breadcrumbs==0.9.1
 django-contrib-comments==1.9.1
 django-cors-headers==3.0.1
