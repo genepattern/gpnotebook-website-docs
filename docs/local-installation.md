@@ -1,4 +1,4 @@
-# Local Installation of the GenePattern Notebook Environment
+# Local Installation
 ---
 
 !!! note 
@@ -26,14 +26,14 @@ Locate the search box in the window that opens and type the word “GenePattern�
 
 The correct image will be named “genepattern-notebook” and above this it will have the organization name “genepattern.” Once this image is located, click the “Create” button to download and install the image. This will take a few minutes.
 
-![image](img/content_screen-shot-2016-01-05-at-10_59.jpg)
+![image](/img/content_screen-shot-2016-01-05-at-10_59.jpg)
 
 ### 4. Set a Volume (Optional)
 By default, any notebooks a user creates will be saved inside the Docker image. A user wanting access to these notebook files outside of the image is advised to “set a volume.” This allows the user to select a folder on their hard drive. This folder will be available inside the notebook environment, and all notebooks the user creates will be saved there.
 
 To set a volume, once the installation is completed, a container named “genepattern-notebook” will show up in the list on the lefthand side of the Kitematic application. Click this item in the list to select it. Afterward, select the Settings tab on the far right and then select Volumes. This will present the user with the option to set a local folder. Click the Change button and then select the desired folder.
 
-![image](img/content_screen_shot_2016-02-01_at_15_57_07.png)
+![image](/img/content_screen_shot_2016-02-01_at_15_57_07.png)
 
 ### 5. Start the Image
 Once the installation is completed, a container named “genepattern-notebook” will show up in the list on the lefthand side of the Kitematic application. Click this item in the list to select it.
@@ -42,36 +42,31 @@ The image may automatically start. If this is the case, the Start button will be
 
 Give the image a few seconds to start and then click the “popout” button to the right of “Web Preview” to open GenePattern Notebook.
 
-![image](img/content_screen_shot_2016-02-01_at_15_06_55.png)
+![image](/img/content_screen_shot_2016-02-01_at_15_06_55.png)
 
 ### What’s Next?
-* [Example Notebooks](http://genepattern-notebook.org/example-notebooks/)
+* [Using GenePattern Notebook](http://genepattern-notebook.org/user-guide/)
 
 ## Install GenePattern Notebook Manually
 This method of installing the GenePattern Notebook Environment will set it up natively on your computer. This will require configuring the computer’s Python environment. It is recommended only for users who are familiar with the command line.
 
 The instructions below will require you to type commands into a terminal window. Mac users can access the terminal window through the following:
 
-* Click the Launchpad icon in your dock: ![image](img/content_launchpad-icon_40.png)
+* Click the Launchpad icon in your dock: ![image](/img/content_launchpad-icon_40.png)
 * In the Search bar, type Terminal, and then click on the Terminal icon: 
 
-![image](img/content_terminal70p.png)
+![image](/img/content_terminal70p.png)
 
 ### 1. Install Python and required tools
 Before the GenePattern Notebook extension can be used, the Python programming language must be installed. While Macs come with Python pre-installed, we recommend the [Anaconda](http://continuum.io/downloads#27) distribution of Python from Continuum Analytics, as this distribution comes with **`pip`**, Jupyter and other necessary packages, as well as a variety of other packages useful in scientific computing. You can install the Anaconda package without interfering with other versions of Python on your system.
 
 To install the Anaconda distribution
 
-* Go to [http://continuum.io/downloads](http://continuum.io/downloads)
-* Select your operating system
-* Download and run the installer.
-
-!!! note
-    Anaconda should be installed in its default location. Installing Anaconda in a custom location may cause errors.
+- Go to [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/)
+- Select your operating system
+- Download and run the installer.
 
 To install the required tools individually (not required if you install Anaconda)
-
-Install **`pip`**
 
 If you are using a distribution of Python that does not come with the **`pip`** utility, it must first be installed. To install **`pip`**:
 
@@ -148,7 +143,7 @@ http://localhost:8888/
 ```
 Once the Jupyter notebook environment is open in your browser, it should look similar to the screenshot below.
 
-![image](img/content_screen_shot_2015-08-24_at_10_07_11-1.png)
+![image](/img/content_screen_shot_2015-08-24_at_10_07_11-1.png)
 
 ## Updating GenePattern Notebook
 GenePattern Notebook is updated regularly with new releases. To update your version of GenePattern Notebook, run the following in the terminal:
@@ -159,13 +154,13 @@ pip install --upgrade genepattern-notebook
 ```
 Mac users can access the terminal window through the following:
 
-* Click the Launchpad icon in your dock: ![image](img/content_launchpad-icon_40.png)
+* Click the Launchpad icon in your dock: ![image](/img/content_launchpad-icon_40.png)
 * In the Search bar, type Terminal, and then click on the Terminal icon: 
 
-![image](img/content_terminal70p.png)
+![image](/img/content_terminal70p.png)
 
 ## What’s Next?
-* [Example Notebooks](http://genepattern-notebook.org/example-notebooks/)
+* [Using GenePattern Notebook](http://genepattern-notebook.org/user-guide/)
 
 ##Compatibility Notes
 * **Python:** GenePattern Notebook supports both Python 2.7 and Python 3.4.

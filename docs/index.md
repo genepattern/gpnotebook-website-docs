@@ -1,15 +1,15 @@
 
-# GenePattern Notebook Documentation
+# Documentation Homepage
 
 ---
 
-|Documentation|Release Notes|
+<!-- |Documentation|Release Notes|
 |--|--|
 |[Programmatic Features](programmatic/)|[GenePattern Notebook Repository](releases/#genepattern-notebook-repository)|
 |[Local Installation](local-installation/)|[GenePattern Notebook Extension](releases/#genepattern-notebook-extension)|
 |[For Jupyter Users](jupyter-users)|[GenePattern Python Library](releases/#genepattern-python-library)|
 |[FAQ](faq)|[Notebook Tool Manager](releases/#notebook-tool-manager)||
-|[Contact](contact)|[Rich Text Editor](releases/#rich-text-editor)||
+|[Contact](contact)|[Rich Text Editor](releases/#rich-text-editor)|| -->
 
 ### What is GenePattern Notebook?
 
@@ -32,13 +32,3 @@ The [**GenePattern Notebook**](http://genepattern-notebook.org) environment inte
 - [**GenePattern Archive (GParc)**](http://www.gparc.org/)
 - [**Jupyter Project**](http://jupyter.org/)
 - [**Python**](https://www.python.org/)
-
-<!--
-|[![genepattern](img/genepattern.png) GenePattern Notebook Homepage](https://genepattern-notebook.org)|[![github](img/github.png) **GitHub Page**](https://github.com/genepattern/genepattern-notebook)|
-|-|-|
-|[![gparc](img/gparc.png) **GenePattern Archive (GParc)**](http://www.gparc.org/)|[![jupyter](img/jupyter.png) **Jupyter Project**](http://jupyter.org/)|
-|[![python](img/python.png) **Python**](https://www.python.org/)|
-
-- [**Contact**](contact/)
-- [**FAQ**](faq/)ls
--->

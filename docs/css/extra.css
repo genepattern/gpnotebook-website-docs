@@ -46,3 +46,7 @@ h1, h2, h3, h4, h5, h6, legend {
 .btn a {
     color: white;
 }
+.hljs {
+    padding: 5px 10px !important;
+    white-space: pre !important;
+}

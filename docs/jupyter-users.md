@@ -38,42 +38,25 @@ analyses or working with the results of these analyses. These cells are
 displayed as a new cell type, and can be added either through the
 Jupyter menu or through the GenePattern Notebook search functionality.
 
-![image](img/content_screen_shot_2015-10-22_at_11_50_01.png)
+![image](/img/content_screen_shot_2015-10-22_at_11_50_01.png)
 
-![image](img/content_screen_shot_2015-08-24_at_10_30_39.png)
+![image](/img/content_screen_shot_2015-08-24_at_10_30_39.png)
 
 GenePattern cells come in three types: authentication, task cells and
 job cells.
 
 ### A. Authentication cells 
-are used to authenticate the notebook user with a GenePattern server. One of these cells must be added to a notebook and the user authenticated before the functionality of other
-GenePattern cells becomes available. If a GenePattern cell is added to a
-notebook before authentication has happened, it will automatically
-become one of these cells.
+are used to authenticate the notebook user with a GenePattern server. One of these cells must be added to a notebook and the user authenticated before the functionality of other GenePattern cells becomes available. If a GenePattern cell is added to a notebook before authentication has happened, it will automatically become one of these cells.
 
-![image](img/content_screen_shot_2015-08-24_at_10_27_12.png)
+![image](/img/content_screen_shot_2015-08-24_at_10_27_12.png)
 
-### B. Task cells 
-each represent a particular type of analysis on the GenePattern platform. Hundreds of diferent analyses are available. These cells will present a form to the user, accepting data or other
-parameters. Once one of these forms has been filled out, the user can
-then run the analysis by clicking the ![run](img/run.png)button. This will submit the
-analysis to the GenePattern server, and create a Job cell which
-represents that particular submission.
+### B. Analysis cells 
+each represent a particular type of analysis on the GenePattern platform. Hundreds of diferent analyses are available. These cells will present a form to the user, accepting data or other parameters. Once one of these forms has been filled out, the user can then run the analysis by clicking the ![run](/img/run.png) button. This will submit the analysis to the GenePattern server and display the results.
 
-![image](img/content_screen_shot_2015-08-24_at_10_32_11.png)
+![image](/img/content_screen_shot_2015-08-24_at_10_32_11.png)
 
-## C. Job cells
-are created when a GenePattern task cells are submitted to the GenePattern server. These cells will appear below the submitting task cell. The left of the cell will contain the timestamp for when the
-job was submitted, and the right will contain the job's status in
-GenePattern's queuing system. All jobs pass from a PENDING state into
-RUNNING, and from there either into the COMPLETE or ERROR states.
-
-Once a job has finished running, any results output by the job will
-appear on the left below the submission timestamp. Clicking any of these
-results will open a menu containing different options for working with
-these files.
-
-![image](img/content_screen_shot_2015-08-24_at_10_33_20.png)
+### C. UI Builder cells
+are a way to display any Python function or method call as an interactive widget. This will render the parameters of the function as a web form. The UI Builder will use any existing docstring for the function as a description, will infer parameter types from default values and will display parameter annotations as helpful text near each input.
 
 Since GenePattern cells are also Python code cells, all changes to the
 information in these widgets is reflected in the code and will be saved
@@ -91,7 +74,7 @@ select "Toggle Code."
 The UI Builder is a way to display any Python function or method call as
 an interactive widget. This will render the parameters of the function
 as a web form which can be filled out with numbers, string literals or
-with references to existing Python variables. Clicking the ![run](img/run.png) button on
+with references to existing Python variables. Clicking the ![run](/img/run.png) button on
 the widget will validate the form and execute the function using the
 supplied values.
 
@@ -103,7 +86,7 @@ input.
 To use render a function, simply import the GPUIBuilder class from the
 genepattern package and pass the function to its constructor.
 
-![image](img/call-widget.jpg)
+![image](/img/call-widget.jpg)
 
 ## 5. GenePattern Python Library
 
@@ -138,7 +121,7 @@ Code examples of how to reference GenePattern jobs or GenePattern result
 files are available in the notebook by clicking a job result and
 selecting "Send to Code" in the menu.
 
-![image](img/content_screen-shot-2015-10-15-at-13_50.jpg)
+![image](/img/content_screen-shot-2015-10-15-at-13_50.jpg)
 
 GPJob objects can also be programmatically created and executed without
 the need for a GenePattern cell or widget. For information on how to do

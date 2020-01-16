@@ -5,6 +5,29 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
+### GenePattern Notebook Repository 19.11 (November 22, 2019)
+- Workshop notebooks now display in their own table inside the Notebook Library tab.
+- Updated to ccal-noir 2.7.1 to fix an incompatibility in that library with the latest version of numpy.
+- Bug fix for notebook sharing emails.
+
+### GenePattern Notebook Repository 19.10 (October 28, 2019)
+- Pinned public notebook tags now display an optional description.
+- Updated to [JupyterHub 1.0](https://github.com/jupyterhub/jupyterhub/blob/master/docs/source/changelog.md#100-2019-05-03).
+- Updated to latest version of [nbtools](#notebook-tool-manager) and [jupyter-wysiwyg](#rich-text-editor).
+
+### GenePattern Notebook Repository 19.09.2 (October 4, 2019)
+- Updated to [Jupyter 6](https://jupyter-notebook.readthedocs.io/en/stable/changelog.html)
+
+### GenePattern Notebook Repository 19.09 (September 17, 2019)
+- Updated to latest version of [nbtools](#notebook-tool-manager), [jupyter-wysiwyg](#rich-text-editor) and [genepattern-notebook](#genepattern-notebook-extension)
+- Updated to [Plotly 4.0](https://medium.com/plotly/plotly-py-4-0-is-here-offline-only-express-first-displayable-anywhere-fc444e5659ee) in the Python 3.7 kernel
+
+### GenePattern Notebook Repository 19.08 (August 19, 2019)
+- Update the notebook preview images anytime a public notebook is updated
+- Graceful failure of GenePattern features added for single-user work and non-Python kernels
+- R kernel added to the Docker image
+- Support for MySQL added to the public notebooks service
+
 ### GenePattern Notebook Repository 19.07 (July 19, 2019)
 - New GenePattern theme added.
 - Public notebooks now sorted by latest by default
@@ -102,6 +125,15 @@ Release updates for the [GenePattern Notebook Repository](https://notebook.genep
 Release updates for the [GenePattern Notebook nbextension](https://github.com/genepattern/genepattern-notebook). Install using
 `pip install genepattern-notebook` or
 `conda install -c genepattern genepattern-notebook`.
+
+### GenePattern Notebook 19.09 (September 17, 2019)
+- Added support for HTML in module and parameter descriptions
+- Cell templates moved to "+" origin
+
+### GenePattern Notebook 19.08 (August 12, 2019)
+- Cell template improvements
+- Login message fix
+- Graceful failure implemented when operating with a non-Python kernel
 
 ### GenePattern Notebook 19.07 (July 16, 2019)
 - Build improvements and bug fixes
@@ -227,6 +259,9 @@ Release updates for the GenePattern Python Library. Install using
 `pip install genepattern-python` or
 `conda install -c genepattern genepattern-python`.
 
+### GenePattern Python 1.4.5 (July 31, 2019)
+- Updated release to the latest PIP standards
+
 ### GenePattern Python 1.4.2 (September 17, 2018)
 - Bug fixes.
 
@@ -261,6 +296,17 @@ Release updates for the GenePattern Python Library. Install using
 
 Release updates for the Notebook Tool Manager. Install using
 `pip install nbtools` or `conda install -c genepattern nbtools`.
+
+### Notebook Tool Manager 19.10 (October 28, 2019)
+- Bug fix for the build_ui decorator.
+
+### Notebook Tool Manager 19.09.1 (September 26, 2019)
+- Critical bug fix for UI Builder
+
+### Notebook Tool Manager 19.09 (September 17, 2019)
+- Added better support for defining and importing UI Builder widgets from a Python module
+- Implemented support for large file uploads in the UI Builder
+Added support for HTML in widget and parameter descriptions
 
 ### Notebook Tool Manager 19.07 (July 16, 2019)
 - Adding r_build_ui magic (UI Builder support for R cells)
@@ -324,6 +370,17 @@ Release updates for the Notebook Tool Manager. Install using
 Release updates for the Rich Text Editor. Install using
 `pip install jupyter-wysiwyg` or
 `conda install -c genepattern jupyter-wysiwyg`.
+
+### Rich Text Editor 19.10 (October 28, 2019)
+- Bug fix for double-clicking erroneously displaying markdown text
+- Bug fix for markdown cells erroneously being changed to code
+
+### Rich Text Editor 19.08 (August 25, 2019)
+- Upgraded the rich text widget to TinyMCE 5
+- Added "Rich Text" pseudo-cell type
+
+### Rich Text Editor 19.07 (July 31, 2019)
+- Updated PIP deploy to the latest standards
 
 ### Rich Text Editor 19.05 (May 31, 2019)
 - Updated conda packaging
