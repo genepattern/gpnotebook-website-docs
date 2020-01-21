@@ -17,7 +17,7 @@ file’s name. For example, if I wanted to move the Run an Analysis.ipynb
 notebook up a directory, I would rename the file ../Run an
 Analysis.ipynb.
 
-![image](/img/content_move.jpg)
+![image](img/content_move.jpg)
 
 ## Q: I opened the notebook and I only see code.
 
@@ -29,7 +29,7 @@ This issue can be solved by executing the top code cell for GenePattern.
 Simply select this cell and then select Cell &gt; Run from the menu. A
 screenshot of the code for this cell is below.
 
-![image](/img/content_screen_shot_2015-10-19_at_13_24_05.png)
+![image](img/content_screen_shot_2015-10-19_at_13_24_05.png)
 
 ## Q: I received a "Connection Reset by Peer" Error, what does it mean?
 
@@ -43,7 +43,7 @@ your operating system or Python installation. This is particularly an
 issue with older versions of macOS. Instructions on how to update the
 version of OpenSSL used by macOS can be found here.
 
-![image](/img/content_reset.jpg)
+![image](img/content_reset.jpg)
 
 ## Q: Why is my home directory /home/jovyan?
 The GenePattern Notebook workspace is based off the official Jupyter stacks Docker container. The Jupyter team has decided that jovyan is the default username in the stacks.

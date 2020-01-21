@@ -7,7 +7,7 @@
 ## Programmatic Features
 
 ### 1. Code Cells
-Code cells allow a user to type in execute Python code. They are the default type of cell. Simply enter the Python code you want to run and then click the ![forward](/img/fa-forward.png) (run cell) button in the notebook toolbar.
+Code cells allow a user to type in execute Python code. They are the default type of cell. Simply enter the Python code you want to run and then click the ![forward](img/fa-forward.png) (run cell) button in the notebook toolbar.
 
 More information on code cells and their variousoptions is available in the [Jupyter documentation](https://jupyter.readthedocs.io/en/latest/).
 
@@ -19,18 +19,18 @@ A complete tutorial on using the GenePattern Python Library is available as a pu
 ### 3. Send to Code
 The GenePattern Python Library seamlessly integrates with GenePattern cells. Code examples of how to reference GenePattern jobs or GenePattern result files are available in GenePattern Job Cells by clicking a job result and selecting “Send to Code” in the menu.
 
-![image](/img/programmatic_send_to_code.png)
+![image](img/programmatic_send_to_code.png)
 
 This will add a new cell below prefilled with the python to retrieve the file as a GPFile object from the GenePattern Python Library.
 
-![image](/img/programmatic_send_to_code_output.png)
+![image](img/programmatic_send_to_code_output.png)
 
 ### 4. Send to Dataframe
 The GenePattern Python Library also provides functionality for common GenePattern file formats, allowing them seamlessly integrate with [Pandas](http://pandas.pydata.org/), a popular Python data analysis library.
 
 Both the [GCT and ODF file formats](http://software.broadinstitute.org/cancer/software/genepattern/file-formats-guide) are easily loaded as Pandas Dataframes. Code examples of how to load these files are available in GenePattern Job Cells by clicking a GCT or ODF job result and selecting “Send to Dataframe” in the menu.
 
-![image](/img/programmatic_send_to_dataframe_output.png)
+![image](img/programmatic_send_to_dataframe_output.png)
 
 
 ### 5. Python Variable Input
@@ -63,7 +63,7 @@ After the extension has been loaded, beginning a cell with
 ```
 will tell the notebook environment to execute the rest of the code in the cell using R rather than Python. An example is given below.
 
-![image](/img/programmatic_r_support.png)
+![image](img/programmatic_r_support.png)
 
 ### 7. Job Result Syntax
 When specifying the input to a GenePattern analysis cell, a simple syntax can be used to select the output of a upstream job. To do this, inside double curly brackets, write the name of the GenePattern module and extension of the output file separated by a period. If multiple jobs exist in the notebook using that module, or multiple files are returned of that type, an index can optionally be specified in square brackets. Several examples are given below.
@@ -94,7 +94,7 @@ Use the third CSV file output by the first FlowMeansCluster job.
 
 Note that unlike python variables which also use the ```{{ }}```  syntax, referencing GenePattern Job outputs in this manner only works within the interface for a GenePattern analysis or  [UI Builder](#ui-builder) interface, and cannot be used directly in code cells.  e.g.
 
-![image](/img/programmatic_job_result_syntax.png)
+![image](img/programmatic_job_result_syntax.png)
 
 
 
@@ -109,7 +109,7 @@ GenePattern Notebook makes doing this easy. Just give the link to the external f
 ```
 An alternative is to make your links appear in a notebook looking like the [UI Builder](#ui-builder) output  from a remote GenePattern job.  To do this, give an array of 1 or more links to the genepattern.GPUIOutput() method and return it at the end of a cell.  An example (with code also displayed) is shown below.
 
-![image](/img/programmatic_links.png)
+![image](img/programmatic_links.png)
 
 ### 9. Installing Packages
 While the GenePattern Notebook Workspace comes with many popular bioinformatic and machine learning packages already installed, it also
@@ -175,7 +175,7 @@ The UI Builder is a way to display any Python function or method call as an inte
 
 The UI Builder will use any existing docstring for the function as a description, will infer parameter types from default values and will display parameter annotations as helpful text near each input.
 
-![image](/img/ui_builder_1.jpg)
+![image](img/ui_builder_1.jpg)
 
 ### 1. Build the UI
 The simplest way to render a function using the UI Builder is to import the genepattern package and then attach the build_ui decorator to the function's definition. A code example for this is given below:
@@ -204,7 +204,7 @@ GPUIBuilder(example_function)
 ### 2. Python Variables & String Literals
 Python variables may be used as input when filling out a UI Builder form. To do this, simply type the name of the variable into the input field. When the form is submitted, the widget will pass a reference to the variable to the resulting function call.
 
-![image](/img/ui_builder_2.jpg)
+![image](img/ui_builder_2.jpg)
 
 Conversely, to ensure that an input value is evaluated as a string literal rather than a variable name, a user can wrap the input to a particular field in either single or double quotes (' or "). This tells the UI Builder to skip checking for variable names and to treat the value in quotes as a literal string. For example, forcing the string foo to be treated as a string literal would be entered in the input field as:
 ```
@@ -222,7 +222,7 @@ This functionality can be achieved by placing the variable name inside double cu
 {{ foo }}
 
 ```
-![image](/img/ui_builder_3.jpg)
+![image](img/ui_builder_3.jpg)
 
 ### 4. Rendering Existing Functions
 Existing Python functions, such as those included in third-party Python libraries, can also be used with the UI Builder. To display an existing function first import it and then pass the function into the constructor of the GPUIBuilder object. Return this object in a cell to display the resulting widget. For example, the code for displaying scikit-learn's KMeans function is given below.
@@ -259,7 +259,7 @@ genepattern.GPUIBuilder(sklearn.cluster.KMeans,
 
 ```
 
-![image](/img/ui_builder_4.jpg)
+![image](img/ui_builder_4.jpg)
 ### 6. Overriding Parameters
 The names and descriptions of individual parameters may also be overridden. In this case, a dictionary may be passed to the build_ui decorator or the GPUIBuilder constructor with the parameter's name as the key and the properties to override as the value.
 
@@ -278,7 +278,7 @@ def example_function(param_1, param_2):
     ...
 
 ```
-![image](/img/ui_builder_5.jpg)
+![image](img/ui_builder_5.jpg)
 
 ### 7. Hiding Parameters
 Sometimes a particular function has parameters that shouldn't be changed in the current context. The UI Builder has the ability to hide the input for these parameters, simplifying the user interface and allowing users to focus only on the relevant inputs. When the function is called, the hidden parameters will automatically use their default values. This may be combined with overriding the default value for the parameter in question in order to force a particular input.
@@ -294,7 +294,7 @@ genepattern.GPUIBuilder(sklearn.cluster.KMeans, parameters={
 })
 
 ```
-![image](/img/ui_builder_6.jpg)
+![image](img/ui_builder_6.jpg)
 ### 8. Output Variable
 The result of a UI Builder function can optionally be assigned to a Python variable. By default, a text field for this variable will appear at the bottom of each UI Builder widget. This field can be overridden just like any other parameter using the output_var parameter name. This includes the ability to change the label, description, assign a default value or hide the parameter. A code example is given below.
 ```
@@ -344,7 +344,7 @@ def example_function(a_text_param, a_number_param,
     . . .
 
 ```
-![image](/img/ui_builder_8.jpg)
+![image](img/ui_builder_8.jpg)
 ### 10. Choice Parameters
 Sometimes a parameter only accepts a limited set of valid input values. This is often represented in a user interface as a dropdown (select) input. The UI Builder has support for this functionality. To change a particular parameter into a dropdown input, simply provide the parameter with a dictionary of available choices. A code example is given below.
 ```
@@ -364,7 +364,7 @@ def example_function(param_1, param_2):
     . . .
 
 ```
-![image](/img/ui_builder_7.jpg)
+![image](img/ui_builder_7.jpg)
 ### 11. File Parameters
 File parameters are intended to handle input representing a file or file-like object. They are integrated with GenePattern job widgets, such that available GenePattern files will appear in a menu when a file parameter is first selected, thereby allowing the user to easily select the desired file.
 
@@ -385,7 +385,7 @@ def example_function(param_1, param_2):
     . . .
 
 ```
-![image](/img/ui_builder_9.jpg)
+![image](img/ui_builder_9.jpg)
 
 Similar to choice parameters, a file parameter may likewise be given a list of possible options. These options will appear in a dropdown when the parameter it selected.
 ```

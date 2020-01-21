@@ -21,7 +21,7 @@ img[alt="code"], img[alt="forward"] {
     width: 30px;
 }
 .icon-home:before {
-    content: url(../img/logo.png);
+    content: url(..img/logo.png);
 }
 a:visited {
     color: #2980B9;
