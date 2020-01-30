@@ -5,6 +5,11 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
+### GenePattern Notebook Repository 20.01 (January 7, 2020)
+- Now includes the [Globus](https://www.globus.org/) client. Documentation on how to connect your workspace to Globus is available [here](https://gpnotebook-website-docs.readthedocs.io/en/latest/programmatic/#globus-connect).
+- Several R packages including Seurat, scater and dyplr are now included by default.
+- Updated to [nbtools](#nbtools) 20.01 and [igv-jupyter](https://github.com/igvteam/igv-jupyter) 0.9.8, which include several bug fixes.
+
 ### GenePattern Notebook Repository 19.11 (November 22, 2019)
 - Workshop notebooks now display in their own table inside the Notebook Library tab.
 - Updated to ccal-noir 2.7.1 to fix an incompatibility in that library with the latest version of numpy.
@@ -296,6 +301,9 @@ Release updates for the GenePattern Python Library. Install using
 
 Release updates for the Notebook Tool Manager. Install using
 `pip install nbtools` or `conda install -c genepattern nbtools`.
+
+### Notebook Tool Manager 20.01 (January 2, 2020)
+- Bug fixes for the R UI Builder.
 
 ### Notebook Tool Manager 19.10 (October 28, 2019)
 - Bug fix for the build_ui decorator.
