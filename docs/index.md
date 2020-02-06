@@ -19,14 +19,15 @@ The [**GenePattern Notebook**](http://genepattern-notebook.org) environment inte
 
 <a href="http://genepattern.org"><img src="img/genepattern.png" width=50px style="float: left; margin: 5px;" id="genepattern-img"></a> [**GenePattern**](https://genepattern.org) provides hundreds of analytical tools for the analysis of gene expression (RNA-seq and microarray), sequence variation and copy number, proteomic, flow cytometry, and network analysis. These tools are all available through a Web interface with no programming experience required.
 
-GenePattern Documentation:
+GenePattern Documentation:  
+
 1. [GenePattern Analysis Modules](https://genepattern.org/modules)
 2. [File Formats Guide](https://genepattern.org/file-formats-guide)
 3. [Programmers Guide](https://genepattern.org/programmers-guide)
 4. [GenePattern Concepts](https://genepattern.org/concepts)
 5. [GenePattern Videos](https://genepattern.org/video-tutorials)
 
-<a href="https://jupyter.org"><img src="img/jupyter.png" width=50px style="float: left; margin: 5px;" id="jupyter-img"></a> [**Jupyter Notebook**](https://jupyter.org) is a web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. If you are unfamiliar with the Jupyter Notebook environment, we recommend you take a look at the [**Jupyter Quickstart Guide**](https://jupyter.readthedocs.io/en/latest/content-quickstart.html)
+<a href="https://jupyter.org"><img src="img/jupyter.png" width=50px style="float: left; margin: 5px;" id="jupyter-img"></a> [**Jupyter Notebook**](https://jupyter.org) is an electronic notebook environment that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. If you are unfamiliar with the Jupyter Notebook environment, we recommend you take a look at the [**Jupyter Quickstart Guide**](https://jupyter.readthedocs.io/en/latest/content-quickstart.html)
 
 
 
