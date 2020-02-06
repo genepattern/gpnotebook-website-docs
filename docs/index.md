@@ -13,7 +13,7 @@
 
 ### What is GenePattern Notebook?
 
-The [**GenePattern Notebook**](http://genepattern-notebook.org) environment integrates GenePattern's analysis platform with the Jupyter Notebook system, allowing researchers to create documents that interleave formatted text, graphics and other multimedia, executable code, and GenePattern analyses, creating a single "research narrative" that puts scientific discussion and analyses in the same place. This tutorial will familiarize you with some of its most important features.
+The [**GenePattern Notebook**](http://genepattern-notebook.org) environment integrates GenePattern's analysis platform with the Jupyter Notebook system, allowing researchers to create documents that interleave formatted text, graphics and other multimedia, executable code, and GenePattern analyses, creating a single "research narrative" that puts scientific discussion and analyses in the same place.
 
 ### GenePattern and Jupyter Notebook
 
