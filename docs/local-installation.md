@@ -163,6 +163,6 @@ Mac users can access the terminal window through the following:
 * [Using GenePattern Notebook](http://genepattern-notebook.org/user-guide/)
 
 ##Compatibility Notes
-* **Python:** GenePattern Notebook supports both Python 2.7 and Python 3.4.
-* **Jupyter:** The GenePattern Notebook extension was developed and tested with Jupyter 4.0 and 4.1.
-* **Browser:** The GenePattern Notebook supports Chrome, Firefox and Safari.
+* **Python:** GenePattern Notebook supports Python 3.4+.
+* **Jupyter:** The GenePattern Notebook extension was developed and tested with Jupyter 5.7.
+* **Browser:** GenePattern Notebook supports Chrome, Firefox and Safari.

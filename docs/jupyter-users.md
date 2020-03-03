@@ -21,7 +21,7 @@ under a BSD-style license.
 
 ## 2. What is GenePattern?
 
-GenePattern is a powerful platform for reproducible bioinformatic
+GenePattern is a powerful platform for reproducible bioinformatics
 research. It provides hundreds of analytical tools for the analysis of
 gene expression ([RNA-seq](http://genepattern.org/rna-seq-analysis) and [microarray](http://genepattern.org/gene-expression-analysis)), [sequence variation and copy
 number](http://genepattern.org/variant-and-copy-number-analysis), [proteomic](http://genepattern.org/proteomics), [flow cytometry](http://genepattern.org/flow-cytometry), and network analysis.

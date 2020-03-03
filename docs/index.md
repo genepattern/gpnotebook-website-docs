@@ -11,6 +11,8 @@
 |[FAQ](faq)|[Notebook Tool Manager](releases/#notebook-tool-manager)||
 |[Contact](contact)|[Rich Text Editor](releases/#rich-text-editor)|| -->
 
+This is the technical documentation for programmatic users of [**GenePattern Notebook**](http://genepattern-notebook.org). For the general user information go [**here](http://genepattern-notebook.org/basic-features).
+
 ### What is GenePattern Notebook?
 
 The [**GenePattern Notebook**](http://genepattern-notebook.org) environment integrates GenePattern's analysis platform with the Jupyter Notebook system, allowing researchers to create documents that interleave formatted text, graphics and other multimedia, executable code, and GenePattern analyses, creating a single "research narrative" that puts scientific discussion and analyses in the same place.

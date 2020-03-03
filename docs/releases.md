@@ -8,7 +8,7 @@ Release updates for the [GenePattern Notebook Repository](https://notebook.genep
 ### GenePattern Notebook Repository 20.01 (January 7, 2020)
 - Now includes the [Globus](https://www.globus.org/) client. Documentation on how to connect your workspace to Globus is available [here](https://gpnotebook-website-docs.readthedocs.io/en/latest/programmatic/#globus-connect).
 - Several R packages including Seurat, scater and dyplr are now included by default.
-- Updated to [nbtools](#nbtools) 20.01 and [igv-jupyter](https://github.com/igvteam/igv-jupyter) 0.9.8, which include several bug fixes.
+- Updated to [nbtools](#notebook-tools-manager) 20.01 and [igv-jupyter](https://github.com/igvteam/igv-jupyter) 0.9.8, which include several bug fixes.
 
 ### GenePattern Notebook Repository 19.11 (November 22, 2019)
 - Workshop notebooks now display in their own table inside the Notebook Library tab.

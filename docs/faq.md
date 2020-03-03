@@ -2,7 +2,7 @@
 ---
 
 ## Q: Is the GenePattern Notebook Worspace intended for use with Protected Health Information (PHI)?
-The GenePattern Notebook Workspace is not intended for use with Protected Health Information (PHI). If you want to perform analyses with PHI data, please see our [instructions for running a private GenePattern Notebook instance.](/documentation/local-installation/)
+The GenePattern Notebook Workspace is not intended for use with Protected Health Information (PHI). If you want to perform analyses with PHI data, please see our [instructions for running a private GenePattern Notebook instance.](https://gpnotebook-website-docs.readthedocs.io/en/latest/local-installation/)
 
 ## Q: How do I move notebooks or other files to different directories?
 
