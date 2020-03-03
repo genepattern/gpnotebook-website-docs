@@ -11,7 +11,7 @@
 |[FAQ](faq)|[Notebook Tool Manager](releases/#notebook-tool-manager)||
 |[Contact](contact)|[Rich Text Editor](releases/#rich-text-editor)|| -->
 
-This is the technical documentation for programmatic users of [**GenePattern Notebook**](http://genepattern-notebook.org). For the general user information go [**here](http://genepattern-notebook.org/basic-features).
+This is the technical documentation for programmatic users of [**GenePattern Notebook**](http://genepattern-notebook.org). For the general user information go [**here**](http://genepattern-notebook.org/basic-features).
 
 ### What is GenePattern Notebook?
 
