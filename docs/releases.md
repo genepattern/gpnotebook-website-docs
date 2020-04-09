@@ -5,6 +5,10 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
+### GenePattern Notebook Repository 20.03 (March 6, 2020)
+- Bug fix in preview image generation.
+- Updated to nbtools 20.03 and jupyter-wysiwyg 20.03.
+
 ### GenePattern Notebook Repository 20.01 (January 7, 2020)
 - Now includes the [Globus](https://www.globus.org/) client. Documentation on how to connect your workspace to Globus is available [here](https://gpnotebook-website-docs.readthedocs.io/en/latest/programmatic/#globus-connect).
 - Several R packages including Seurat, scater and dyplr are now included by default.
@@ -302,6 +306,9 @@ Release updates for the GenePattern Python Library. Install using
 Release updates for the Notebook Tool Manager. Install using
 `pip install nbtools` or `conda install -c genepattern nbtools`.
 
+### Notebook Tool Manager 20.03 (March 6, 2020)
+- Bug fix in handling of file list parameters.
+
 ### Notebook Tool Manager 20.01 (January 2, 2020)
 - Bug fixes for the R UI Builder.
 
@@ -378,6 +385,9 @@ Added support for HTML in widget and parameter descriptions
 Release updates for the Rich Text Editor. Install using
 `pip install jupyter-wysiwyg` or
 `conda install -c genepattern jupyter-wysiwyg`.
+
+### Rich Text Editor 20.03 (March 6, 2020)
+- Fixed bug where buttons wouldn't disappear as expected.
 
 ### Rich Text Editor 19.10 (October 28, 2019)
 - Bug fix for double-clicking erroneously displaying markdown text
