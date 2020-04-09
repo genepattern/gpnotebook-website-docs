@@ -1,5 +1,5 @@
 
-# Documentation Homepage
+# GenePattern Notebook Documentation
 
 ---
 
