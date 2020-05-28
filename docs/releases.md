@@ -5,6 +5,9 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
+### GenePattern Notebook Repository 20.05 (May 28, 2020)
+- Updated to genepattern-notebook 20.05, nbtools 20.05 and genepattern-python 20.05.
+
 ### GenePattern Notebook Repository 20.03 (March 6, 2020)
 - Bug fix in preview image generation.
 - Updated to nbtools 20.03 and jupyter-wysiwyg 20.03.
@@ -134,6 +137,10 @@ Release updates for the [GenePattern Notebook Repository](https://notebook.genep
 Release updates for the [GenePattern Notebook nbextension](https://github.com/genepattern/genepattern-notebook). Install using
 `pip install genepattern-notebook` or
 `conda install -c genepattern genepattern-notebook`.
+        
+### GenePattern Notebook 20.05 (May 28, 2020)
+- Fixed a bug where checking for password parameters was erroneously case insensitive
+- Removed custom values for job memory parameters
 
 ### GenePattern Notebook 19.09 (September 17, 2019)
 - Added support for HTML in module and parameter descriptions
@@ -268,6 +275,9 @@ Release updates for the GenePattern Python Library. Install using
 `pip install genepattern-python` or
 `conda install -c genepattern genepattern-python`.
 
+### GenePattern Python 20.05 (May 28, 2020)
+- CLS file support added to gp.data package
+
 ### GenePattern Python 1.4.5 (July 31, 2019)
 - Updated release to the latest PIP standards
 
@@ -305,6 +315,9 @@ Release updates for the GenePattern Python Library. Install using
 
 Release updates for the Notebook Tool Manager. Install using
 `pip install nbtools` or `conda install -c genepattern nbtools`.
+
+### Notebook Tool Manager 20.05 (May 28, 2020)
+- Added support for multi-select parameters
 
 ### Notebook Tool Manager 20.03 (March 6, 2020)
 - Bug fix in handling of file list parameters.
