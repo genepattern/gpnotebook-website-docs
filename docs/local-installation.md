@@ -45,7 +45,7 @@ Give the image a few seconds to start and then click the “popout” button to 
 ![image](img/content_screen_shot_2016-02-01_at_15_06_55.png)
 
 ### What’s Next?
-* [Using GenePattern Notebook](http://genepattern-notebook.org/user-guide/)
+* [Using GenePattern Notebook](http://notebook.genepattern.org/user-guide/)
 
 ## Install GenePattern Notebook Manually
 This method of installing the GenePattern Notebook Environment will set it up natively on your computer. This will require configuring the computer’s Python environment. It is recommended only for users who are familiar with the command line.
