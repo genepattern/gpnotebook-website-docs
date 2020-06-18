@@ -522,7 +522,7 @@ The simplest way to create a UIOutput widget is to import the widget and then ca
 
 import nbtools
 
-genepattern.UIOutput()
+nbtools.UIOutput()
 
 ```
 ### 2. Specify Parameters
@@ -540,7 +540,7 @@ The status of a UIOutput widget can be dynamically updated by setting the status
 
 import nbtools
 
-uio = genepattern.UIOutput(status="Running")
+uio = nbtools.UIOutput(status="Running")
 # Perform long-running analysis here
 uio.status = "Complete"
 
