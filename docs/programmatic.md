@@ -520,7 +520,7 @@ UIOutput is a widget that can be created programmatically and displayed as the o
 The simplest way to create a UIOutput widget is to import the widget and then call the constructor.:
 ```python
 
-import genepattern
+import nbtools
 
 genepattern.UIOutput()
 
@@ -538,7 +538,7 @@ The UIOutput widget supports a number of parameters, which should be set to pres
 The status of a UIOutput widget can be dynamically updated by setting the status property of the widget object. This is useful for long-running analyses and allows a function to alert the user when an analysis is complete, or when a new stage of analysis has been reached.
 ```
 
-import genepattern
+import nbtools
 
 uio = genepattern.UIOutput(status="Running")
 # Perform long-running analysis here
