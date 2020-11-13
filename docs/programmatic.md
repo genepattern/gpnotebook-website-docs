@@ -540,7 +540,7 @@ uibuilder.error = 'An error was encountered performing method'
 Set `extra_menu_items` to a dict of additional menu items to display in the widget's gear menu. The key should be the label to display in the menu and the value should be a dict containing the action to perform and the code to execute. Valid actions are:
 
 * **cell:** Creates a new cell below the current one, inserts the provided Python code and executes that cell.
-* **method:** Executes the indicated function in Python kernel.
+* **method:** Executes the indicated function in the Python kernel.
 
 A code example is provided below.
 
@@ -643,20 +643,120 @@ nbtools.UIOutput()
 ### 2. Specify Parameters
 The UIOutput widget supports a number of parameters, which should be set to present as output. Options include:
 
+* **appendix:** An ipywidget instance that will be appended to the UIOutput widget. *(JupyterLab Only)*
+* **collapsed:** Set whether the widget is currently expanded or collapsed (default=True). *(JupyterLab Only)*
 * **description:** A text blurb describing what is being output.
 * **files:** A list of URLs to files being output by the widget.
 * **name:** A name to display in the header of the widget.
-* **status:** A terse indicator of the output status. Can be dynamically updated as an analysis progresses (see below).
+* **status:** A terse indicator of the output status.
 * **text:** Intended for long text output, such as logging or other information.
+* **visualization:** A URL that will be displayed in an iframe or an HTML blob that will be displayed. *(JupyterLab Only)*
 
-### 3. Dynamically Updating Status
-The status of a UIOutput widget can be dynamically updated by setting the status property of the widget object. This is useful for long-running analyses and allows a function to alert the user when an analysis is complete, or when a new stage of analysis has been reached.
 ```
-
+import ipywidgets
 import nbtools
 
+# Create an ipywidget to append
+text_input = ipywidgets.Text()
+
+nbtools.UIOutput(appendix=text_input, collapsed=True, description='Output from the analysis', 
+                 files=['http://foo.bar/foo.txt', 'http://bar.foo/bar.rds'], name='Job Output', status='Running', 
+                 text='Running job...', visualization='http://foo.bar/heatmap.html')
+```  
+
+### 3. Dynamically Updating Parameters
+
+*(JupyterLab Only, except for `status`)*
+
+The parameters of a UIOutput widget can be dynamically updated by setting the relevant property of the widget object.
+ This is useful for long-running analyses, as it can be used to update the status and other information as the analysis 
+ progresses.
+
+```
 uio = nbtools.UIOutput(status="Running")
 # Perform long-running analysis here
 uio.status = "Complete"
+uio.visualization = "http://foo.bar/heatmap.html"
+```      
 
-```                
+### 4. Look and Feel 
+
+*(JupyterLab Only)*
+
+The look and feel of a UI Output widget can customized by setting any of the following options:
+
+* **color:** Sets the header and border color of the widget. (default based on the current JupyterLab theme)
+* **logo:** A URL pointing to the logo to display in the UI Output header. 
+
+```python
+nbtools.UIOutput(color='#0000FF', logo='http://custom.logo')
+```
+
+### 5. Messages
+
+*(JupyterLab Only)*
+
+These values can be set in order to display a message to the user. Usually they are used to bring attention to an error or to highlight important feedback.
+
+* **info:** Sets an informative message to display to the user in a highlighted info callout.
+* **error:** Sets an error message to display to the user in an error callout.
+
+```python
+UIOutput(info='Something you should know about this output.', error='A problem with this output.')
+```
+
+```python
+uioutput = UIOutput()
+uioutput.info = 'Something you should know about this output.'
+uioutput.error = 'A problem with this output.'
+```
+
+### 16. Menu Items
+
+*(JupyterLab Only)*
+
+* **extra_file_menu_items:** A dict of additional menu items to appear in the menu for each file.
+* **extra_menu_items:** A dict of additional menu items to display in the widget's gear menu. 
+
+The key for all menu items should be the label to display in the menu and the value should be a dict containing the 
+action to perform and the code to execute. Valid actions are:
+
+* **cell:** Creates a new cell below the current one, inserts the provided Python code and executes that cell.
+* **method:** Executes the indicated function in the Python kernel.
+
+A code example is provided below.
+
+```python
+nbtools.UIOutput(extra_menu_items={
+    'Show Help Information': {
+        'action': 'cell',
+        'code': 'help(nbtools)'
+    }
+})
+```
+
+```python
+nbtools.UIOutput(extra_menu_items={
+    'Call Function': {
+        'action': 'method',
+        'code': 'method_name'
+    }
+})
+```
+
+In addition, menu items created for the file menus will have the following variables available for use in their actions:
+
+* **file_name:** The name of the file the action is being expected on.
+* **type:** The type of the file the action is being expected on.
+* **widget_name:** The name of the widget the action is being called from.
+
+A code example is provided below.
+
+```python
+nbtools.UIOutput(extra_file_menu_items={
+    'Get File': {
+        'action': 'cell',
+        'code': 'package.get_file("{{file_name}}")'
+    }
+})
+```
