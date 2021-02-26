@@ -5,6 +5,10 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
+### GenePattern Notebook Repository 21.02 (February 26, 2020)
+- Added the new [Notebook Project](https://notebook.genepattern.org/basic-features/#notebook-projects) functionality and redesign!
+- Updated to genepattern-notebook 21.02 and nbtools 21.02.
+
 ### GenePattern Notebook Repository 20.05 (May 28, 2020)
 - Updated to genepattern-notebook 20.05, nbtools 20.05 and genepattern-python 20.05.
 
@@ -137,6 +141,9 @@ Release updates for the [GenePattern Notebook Repository](https://notebook.genep
 Release updates for the [GenePattern Notebook nbextension](https://github.com/genepattern/genepattern-notebook). Install using
 `pip install genepattern-notebook` or
 `conda install -c genepattern genepattern-notebook`.
+
+### GenePattern Notebook 21.02 (February 26, 2020)
+- Removed IU and Broad from the GenePattern servers list
         
 ### GenePattern Notebook 20.05 (May 28, 2020)
 - Fixed a bug where checking for password parameters was erroneously case insensitive
@@ -315,6 +322,9 @@ Release updates for the GenePattern Python Library. Install using
 
 Release updates for the Notebook Tool Manager. Install using
 `pip install nbtools` or `conda install -c genepattern nbtools`.
+
+### Notebook Tool Manager 21.02 (February 26, 2020)
+- Fixed a bug with wrapping C-compiled objects in Python 3.8
 
 ### Notebook Tool Manager 20.05 (May 28, 2020)
 - Added support for multi-select parameters
