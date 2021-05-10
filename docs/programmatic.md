@@ -146,6 +146,31 @@ conda install <package_name>
                 
 ```
 
+## Cytoscape
+
+[Cytoscape](https://cytoscape.org/) is an open source software platform for visualizing complex networks and integrating them with any type of attribute data.
+
+You can connect a GenePattern notebook to a Cytoscape instance running on your computer using the [py4cytoscape](https://github.com/cytoscape/py4cytoscape) library. This library comes pre-installed in the GenePattern Notebook Workspace, otherwise you may install it by executing the following command:
+
+```bash
+pip install py4cytoscape sphinx
+```
+
+Once installed, open Cytoscape on your computer and then active Cytoscape's [Jupyter-Bridge](https://github.com/cytoscape/jupyter-bridge) inside the notebook by executing the following code inside a Python cell:
+
+```python
+import py4cytoscape as p4c
+import IPython
+
+print(f'Loading Javascript client ... {p4c.get_browser_client_channel()} on {p4c.get_jupyter_bridge_url()}')
+browser_client_js = p4c.get_browser_client_js()
+IPython.display.Javascript(browser_client_js) # Start browser client
+```
+
+If prompted, you may need to also install the [FileTransfer](http://apps.cytoscape.org/apps/filetransfer) app inside your Cytoscape instance.
+
+Once the Python code above has executed successfully, you may call Cytoscape functions and visualize networks diectly from your notebook. Documentation for this is available on [Cytoscape's Read the Docs](https://py4cytoscape.readthedocs.io/en/latest/tutorials/index.html).
+
 ## Globus Connect
 [Globus](https://www.globus.org/) is a way to synchronize the files in your GenePattern Notebook user directory with those on your personal computer or elsewhere.
 
