@@ -5,7 +5,7 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
-### GenePattern Notebook Repository 21.05 (May 28, 2021)
+### GenePattern Notebook Repository 21.05 (June 29, 2021)
 - Added the new [Notebook Project Publishing and Sharing](https://notebook.genepattern.org/blog/notebook-project-publishing-and-sharing/) functionality
 - Updated to notebook-tour 21.05 and nbtools 21.05.
 
@@ -327,7 +327,7 @@ Release updates for the GenePattern Python Library. Install using
 Release updates for the Notebook Tool Manager. Install using
 `pip install nbtools` or `conda install -c genepattern nbtools`.
 
-### Notebook Tool Manager 21.05 (May 28, 2021)
+### Notebook Tool Manager 21.05 (June 29, 2021)
 - Fixed a compatibility bug with extensions that override the default jquery library
 
 ### Notebook Tool Manager 21.02 (February 26, 2021)
