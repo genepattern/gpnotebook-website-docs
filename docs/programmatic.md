@@ -526,7 +526,7 @@ Specific text options can be made easily accessible from a text input by annotat
 The look and feel of a UI Builder widget can customized by setting any of the following options:
 
 * **color:** Sets the header and border color of the widget. (default based on the current JupyterLab theme)
-* **logo:** A URL pointing to the logo to display in the UI Builder header. 
+* **logo:** A URL pointing to the logo to display in the UI Builder header. Setting its value to 'None' turns off displaying the logo entirely.
 * **run_label:** Change the label on the Run buttons. (default='Run')
 * **display_header:** Toggle whether to display the UI Builder header. (default=True)
 * **display_footer:** Whether or not to display the UI Builder footer. (default=True)
@@ -600,6 +600,7 @@ The following minor features are available available in the UI Builder.
 * **collapse:** Set whether the widget collapses upon submission (default=True).
 * **collapsed:** Set whether the widget is currently expanded or collapsed (default=True). *(JupyterLab Only)*
 * **busy:** Set whether the widget controls are disabled because it is busy. (default=False) *(JupyterLab Only)*
+* **license:** Sets the test of a license ageement to be displayed and agreed to before the tool is executed, as well as whether the license has already been agreed to or not. This parameter expects a dict with a 'text' key for the license text and a 'callback' key with a boolean value specifying whether the user has already agreed to the license. A callback function can be attached as an observer to the 'callback' value.
                 
 ```python
 @nbtools.build_ui(register_tool=False, function_import='example_package.example_function', collapse=False, collapsed=False, busy=True)
@@ -676,6 +677,7 @@ The UIOutput widget supports a number of parameters, which should be set to pres
 * **status:** A terse indicator of the output status.
 * **text:** Intended for long text output, such as logging or other information.
 * **visualization:** A URL that will be displayed in an iframe or an HTML blob that will be displayed. *(JupyterLab Only)*
+* **origin:** Set an origin identifier so that event callbacks can be limited to UIOutput widgets with a particular origin. Usually this origin matches the origin of the UIBuilder widget which created the UIOutput.
 
 ```
 import ipywidgets
