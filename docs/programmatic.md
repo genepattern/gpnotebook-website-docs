@@ -523,7 +523,7 @@ Specific text options can be made easily accessible from a text input by annotat
 
 *(JupyterLab Only)*
 
-The look and feel of a UI Builder widget can customized by setting any of the following options:
+The look and feel of a UI Builder widget can be customized by setting any of the following options:
 
 * **color:** Sets the header and border color of the widget. (default based on the current JupyterLab theme)
 * **logo:** A URL pointing to the logo to display in the UI Builder header. Setting its value to 'None' turns off displaying the logo entirely.
