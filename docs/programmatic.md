@@ -591,7 +591,7 @@ def example_function(first_parameter, second_parameter):
     . . .
 ```
 
-### 14. Other Options
+### 17. Other Options
 
 The following minor features are available available in the UI Builder.
 
