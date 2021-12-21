@@ -14,7 +14,7 @@ Release updates for the [GenePattern Notebook Repository](https://notebook.genep
 - Updated to genepattern-python, nbtools and genepattern-notebook
 - Bug fixes
 
-### GenePattern Notebook Repository 21.05 (July 15, 2021)
+### GenePattern Notebook Repository 21.07 (July 15, 2021)
 - Improved user stats and reporting
 - Notebook project bug fixes
 
