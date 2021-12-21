@@ -5,7 +5,7 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
-### GenePattern Notebook Repository 21.05 (December 21, 2021)
+### GenePattern Notebook Repository 21.12 (December 21, 2021)
 - Added project citation support
 - Duplicate and download project functionality added
 - Project manifests implemented
