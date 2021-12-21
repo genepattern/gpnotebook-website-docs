@@ -5,6 +5,19 @@
 
 Release updates for the [GenePattern Notebook Repository](https://notebook.genepattern.org/).
 
+### GenePattern Notebook Repository 21.05 (December 21, 2021)
+- Added project citation support
+- Duplicate and download project functionality added
+- Project manifests implemented
+- GenePattern file API support added
+- Admin tools for unpublishing problematic projects added
+- Updated to genepattern-python, nbtools and genepattern-notebook
+- Bug fixes
+
+### GenePattern Notebook Repository 21.05 (July 15, 2021)
+- Improved user stats and reporting
+- Notebook project bug fixes
+
 ### GenePattern Notebook Repository 21.05 (June 29, 2021)
 - Added the new [Notebook Project Publishing and Sharing](https://notebook.genepattern.org/blog/notebook-project-publishing-and-sharing/) functionality
 - Updated to notebook-tour 21.05 and nbtools 21.05.
@@ -146,6 +159,9 @@ Release updates for the [GenePattern Notebook nbextension](https://github.com/ge
 `pip install genepattern-notebook` or
 `conda install -c genepattern genepattern-notebook`.
 
+### GenePattern Notebook 21.12 (December 21, 2021)
+- Demo mode implemented
+
 ### GenePattern Notebook 21.02 (February 26, 2020)
 - Removed IU and Broad from the GenePattern servers list
         
@@ -286,6 +302,9 @@ Release updates for the GenePattern Python Library. Install using
 `pip install genepattern-python` or
 `conda install -c genepattern genepattern-python`.
 
+### GenePattern Python 21.12 (December 21, 2021)
+- Terminate job method added
+
 ### GenePattern Python 20.05 (May 28, 2020)
 - CLS file support added to gp.data package
 
@@ -326,6 +345,9 @@ Release updates for the GenePattern Python Library. Install using
 
 Release updates for the Notebook Tool Manager. Install using
 `pip install nbtools` or `conda install -c genepattern nbtools`.
+
+### Notebook Tool Manager 21.12 (December 21, 2021)
+- Removed erroneous warning message
 
 ### Notebook Tool Manager 21.05 (June 29, 2021)
 - Fixed a compatibility bug with extensions that override the default jquery library
